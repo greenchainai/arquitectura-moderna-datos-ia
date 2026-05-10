@@ -1,7 +1,6 @@
 # arquitectura-moderna-datos-ia
 Ejemplos técnicos del libro “Arquitectura Moderna de Datos e IA”: datos, IA, dbt, GitOps, agentes, gobierno y arquitectura end-to-end.
 
-````markdown
 # Arquitectura Moderna de Datos e IA
 
 Repositorio complementario del libro **“Arquitectura Moderna de Datos e IA: Patrones, plataformas y decisiones inteligentes de extremo a extremo”**.
@@ -116,9 +115,6 @@ El contenido editorial completo del libro, textos, diagramas, imágenes, portada
 
 ## Autor
 
-Repositorio creado por **[TU NOMBRE]**, Arquitecto de Soluciones especializado en arquitectura de datos, transformación digital, plataformas cloud e inteligencia artificial aplicada al negocio.
+Repositorio creado por **Jorge Hernández**, Arquitecto de Soluciones especializado en arquitectura de datos, transformación digital, plataformas cloud e inteligencia artificial aplicada al negocio.
 
-```
 
-Yo añadiría también un fichero `SCRIPT_INDEX.md` para que el lector encuentre rápido cada ejemplo por capítulo.
-```
