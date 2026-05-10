@@ -1,0 +1,11 @@
+partner_id,partner_name,partner_type,country,api_endpoint,is_data_space_ready,created_at
+1,Partner Carrier 001,carrier,Germany,https://api.partner-001.example.com/v1,True,2023-05-30T00:00:00+00:00
+2,Partner Supplier 002,supplier,Netherlands,https://api.partner-002.example.com/v1,False,2024-03-28T00:00:00+00:00
+3,Partner Carrier 003,carrier,Portugal,https://api.partner-003.example.com/v1,True,2023-07-05T00:00:00+00:00
+4,Partner Customer 004,customer,Spain,https://api.partner-004.example.com/v1,False,2024-10-28T00:00:00+00:00
+5,Partner Customer 005,customer,Italy,https://api.partner-005.example.com/v1,False,2024-07-03T00:00:00+00:00
+6,Partner Carrier 006,carrier,Portugal,https://api.partner-006.example.com/v1,False,2023-09-12T00:00:00+00:00
+7,Partner Carrier 007,carrier,Netherlands,,True,2024-01-13T00:00:00+00:00
+8,Partner Public_Sector 008,public_sector,Portugal,https://api.partner-008.example.com/v1,False,2023-08-09T00:00:00+00:00
+9,Partner Carrier 009,carrier,Portugal,https://api.partner-009.example.com/v1,False,2023-06-09T00:00:00+00:00
+10,Partner Public_Sector 010,public_sector,Italy,https://api.partner-010.example.com/v1,True,2023-07-04T00:00:00+00:00

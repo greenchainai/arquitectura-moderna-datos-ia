@@ -1,0 +1,11 @@
+environments:
+  dev:
+    purpose: "Development and experimentation"
+    approval_required: false
+  test:
+    purpose: "Integration testing and validation"
+    approval_required: true
+  prod:
+    purpose: "Production workloads"
+    approval_required: true
+    change_window_required: true

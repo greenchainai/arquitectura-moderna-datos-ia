@@ -1,0 +1,10 @@
+{
+  "tool_invocation_id": "TOOL-20260420-00045",
+  "session_id": "SES-20260420-00012",
+  "tool_name": "get_shipment_status",
+  "input_payload": {"shipment_id": "SHP-10045"},
+  "output_payload": {"shipment_status": "DELAYED", "last_location": "Zaragoza Hub", "delay_risk_score": 0.82, "open_incidents": 1},
+  "status": "SUCCESS",
+  "duration_ms": 240,
+  "timestamp": "2026-04-20T10:20:00Z"
+}

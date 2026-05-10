@@ -1,0 +1,5 @@
+On Time Delivery Rate =
+DIVIDE(
+    [On Time Deliveries],
+    [Total Delivered Shipments]
+)

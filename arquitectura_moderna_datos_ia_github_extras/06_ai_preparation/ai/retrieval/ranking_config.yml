@@ -1,0 +1,8 @@
+ranking:
+  strategy: hybrid
+  semantic_weight: 0.75
+  keyword_weight: 0.25
+  filters:
+    enforce_permissions: true
+    exclude_expired_documents: true
+  top_k: 8

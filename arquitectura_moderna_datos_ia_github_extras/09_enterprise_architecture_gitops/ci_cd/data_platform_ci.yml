@@ -1,0 +1,18 @@
+name: data-platform-ci
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate-data-platform:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate JSON files
+        run: |
+          find . -name "*.json" -print0 | xargs -0 -I{} python -m json.tool {} > /dev/null
+      - name: Run dbt build
+        run: echo "Run dbt build here"
+      - name: Run AI evaluation cases
+        run: echo "Run AI evaluation suite here"

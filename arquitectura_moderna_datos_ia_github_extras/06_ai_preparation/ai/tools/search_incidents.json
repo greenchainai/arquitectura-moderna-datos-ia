@@ -1,0 +1,1 @@
+{"name":"search_incidents","description":"Search open and historical incidents related to a shipment.","input_schema":{"type":"object","properties":{"shipment_id":{"type":"string"},"status":{"type":"string","enum":["OPEN","RESOLVED","ALL"]}},"required":["shipment_id"]}}

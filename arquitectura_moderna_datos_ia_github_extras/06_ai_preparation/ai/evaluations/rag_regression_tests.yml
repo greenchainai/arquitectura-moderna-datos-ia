@@ -1,0 +1,5 @@
+cases:
+  - case_id: delayed_express_shipment
+    input: "¿Qué hago si un envío express se retrasa más de 24 horas?"
+    expected_sources: [express_delivery_policy, incident_escalation_procedure]
+    expected_behavior: [cite_policy, recommend_escalation, require_human_approval]

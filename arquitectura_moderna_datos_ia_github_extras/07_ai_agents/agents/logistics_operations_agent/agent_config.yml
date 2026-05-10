@@ -1,0 +1,6 @@
+agent:
+  name: logistics_operations_agent
+  version: 1.0.0
+  description: "Agent for logistics operations support."
+  requires_human_approval_for_sensitive_actions: true
+  default_language: es

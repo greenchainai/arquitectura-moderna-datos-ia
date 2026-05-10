@@ -1,0 +1,26 @@
+customer_id,external_customer_code,customer_name,customer_segment,country,city,industry,created_at
+1,CUST-000001,Atlas Solutions 1,sme,Netherlands,Utrecht,automotive,2024-02-27T00:00:00+00:00
+2,CUST-000002,Trans Foods 2,public_sector,France,Paris,public_sector,2024-12-01T00:00:00+00:00
+3,CUST-000003,Euro Group 3,enterprise,Germany,Cologne,food,2024-03-04T00:00:00+00:00
+4,CUST-000004,Nexa Motors 4,mid_market,France,Lyon,public_sector,2024-07-06T00:00:00+00:00
+5,CUST-000005,Nova Industries 5,sme,Germany,Munich,public_sector,2024-03-07T00:00:00+00:00
+6,CUST-000006,Atlas Systems 6,public_sector,Portugal,Braga,food,2024-09-21T00:00:00+00:00
+7,CUST-000007,North Health 7,enterprise,Netherlands,Amsterdam,retail,2024-07-07T00:00:00+00:00
+8,CUST-000008,Nova Solutions 8,mid_market,Spain,Madrid,automotive,2024-01-30T00:00:00+00:00
+9,CUST-000009,Green Industries 9,mid_market,Portugal,Braga,food,2024-07-28T00:00:00+00:00
+10,CUST-000010,Iber Logistics 10,enterprise,France,Lille,public_sector,2024-04-15T00:00:00+00:00
+11,CUST-000011,Prime Systems 11,mid_market,Netherlands,Amsterdam,retail,2024-05-10T00:00:00+00:00
+12,CUST-000012,Euro Industries 12,mid_market,Portugal,Braga,public_sector,2024-02-12T00:00:00+00:00
+13,CUST-000013,Blue Group 13,sme,France,Marseille,electronics,2024-11-18T00:00:00+00:00
+14,CUST-000014,Iber Foods 14,sme,Portugal,Porto,automotive,2024-06-15T00:00:00+00:00
+15,CUST-000015,Atlas Systems 15,sme,Italy,Naples,electronics,2024-10-27T00:00:00+00:00
+16,CUST-000016,Trans Health 16,mid_market,Spain,Bilbao,manufacturing,2024-10-13T00:00:00+00:00
+17,CUST-000017,Green Systems 17,sme,Germany,Cologne,public_sector,2024-07-24T00:00:00+00:00
+18,CUST-000018,Atlas Industries 18,sme,Italy,Turin,food,2024-04-20T00:00:00+00:00
+19,CUST-000019,Nova Systems 19,mid_market,Netherlands,Amsterdam,manufacturing,2024-11-15T00:00:00+00:00
+20,CUST-000020,Iber Systems 20,public_sector,Germany,Cologne,public_sector,2024-09-21T00:00:00+00:00
+21,CUST-000021,Iber Foods 21,mid_market,Spain,Bilbao,public_sector,2024-11-01T00:00:00+00:00
+22,CUST-000022,Euro Group 22,public_sector,Italy,Turin,food,2024-01-21T00:00:00+00:00
+23,CUST-000023,Blue Health 23,mid_market,Italy,Naples,manufacturing,2024-05-28T00:00:00+00:00
+24,CUST-000024,Blue Foods 24,sme,France,Toulouse,retail,2024-10-03T00:00:00+00:00
+25,CUST-000025,Blue Health 25,sme,Germany,Cologne,food,2024-11-12T00:00:00+00:00

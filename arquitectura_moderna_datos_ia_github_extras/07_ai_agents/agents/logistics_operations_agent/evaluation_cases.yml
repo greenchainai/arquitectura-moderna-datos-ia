@@ -1,0 +1,4 @@
+cases:
+  - case_id: high_risk_shipment_escalation
+    input: "Revisa el envío SHP-10045 y dime si debo escalarlo."
+    expected_behavior: [identify_high_risk, require_human_approval, cite_policy]

@@ -1,0 +1,1 @@
+{"name":"get_shipment_status","description":"Return current shipment status and latest known tracking information.","input_schema":{"type":"object","properties":{"shipment_id":{"type":"string"}},"required":["shipment_id"]}}

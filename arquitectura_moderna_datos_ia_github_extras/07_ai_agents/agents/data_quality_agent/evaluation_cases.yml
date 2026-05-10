@@ -1,0 +1,5 @@
+cases:
+  - case_id: stale_tracking_events
+    input: "Comprueba si tracking_events está actualizado."
+    expected_tools: [get_dataset_freshness]
+    expected_behavior: [report_freshness_status, recommend_ticket_if_sla_breached]

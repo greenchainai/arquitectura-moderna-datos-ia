@@ -1,0 +1,14 @@
+{
+  "policy_id": "co2_usage_policy_v1",
+  "target_data_product": "shipment_co2_data_product",
+  "permissions": [
+    {"action": "read", "purpose": "sustainability_reporting"}
+  ],
+  "prohibitions": [
+    {"action": "redistribute", "reason": "Data product cannot be redistributed to third parties without a new contract."},
+    {"action": "use_for_pricing_negotiation", "reason": "Use is outside the agreed purpose."}
+  ],
+  "obligations": [
+    {"action": "log_usage", "description": "Consumer must log every access to the data product."}
+  ]
+}

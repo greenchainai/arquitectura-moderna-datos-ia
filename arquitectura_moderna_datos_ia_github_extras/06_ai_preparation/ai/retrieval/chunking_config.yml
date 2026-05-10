@@ -1,0 +1,5 @@
+chunking:
+  strategy: recursive
+  chunk_size: 800
+  chunk_overlap: 120
+  preserve_headings: true

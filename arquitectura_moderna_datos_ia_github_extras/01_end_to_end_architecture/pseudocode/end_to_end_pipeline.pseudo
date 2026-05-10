@@ -1,0 +1,13 @@
+Fuentes
+  → Ingesta
+    → Raw / Bronze
+      → Transformación
+        → Silver / Integration
+          → Gold / Serving
+            → Semantic Layer
+              → Analítica
+                → IA / Predicción
+                  → Recomendación
+                    → Decisión
+                      → Acción
+                        → Feedback

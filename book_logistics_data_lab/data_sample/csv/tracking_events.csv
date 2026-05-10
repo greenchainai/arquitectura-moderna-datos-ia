@@ -1,0 +1,626 @@
+tracking_event_id,shipment_id,event_timestamp,event_type,event_location,latitude,longitude,event_source,event_payload,created_at
+1,1,2026-03-07T09:19:38+00:00,created,Hub 21,52.213074,-7.396306,iot_gateway,"{""shipment_id"": 1, ""status"": ""created"", ""source_quality"": ""medium""}",2026-03-07T09:24:38+00:00
+2,1,2026-03-07T12:45:32+00:00,picked_up,Hub 24,52.112602,-4.563327,mobile_app,"{""shipment_id"": 1, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2026-03-07T12:47:32+00:00
+3,1,2026-03-07T16:10:26+00:00,departed_warehouse,Hub 17,44.640678,13.470617,mobile_app,"{""shipment_id"": 1, ""status"": ""departed_warehouse"", ""source_quality"": ""high""}",2026-03-07T16:17:26+00:00
+4,1,2026-03-07T19:18:20+00:00,in_transit,Hub 13,39.972971,3.442772,carrier_api,"{""shipment_id"": 1, ""status"": ""in_transit"", ""source_quality"": ""high""}",2026-03-07T19:24:20+00:00
+5,1,2026-03-07T22:26:14+00:00,arrived_hub,Hub 14,36.747589,-5.333166,tms,"{""shipment_id"": 1, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2026-03-07T22:34:14+00:00
+6,1,2026-03-08T01:39:08+00:00,out_for_delivery,Frankfurt,44.157341,5.730134,mobile_app,"{""shipment_id"": 1, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2026-03-08T01:45:08+00:00
+7,1,2026-03-08T04:18:02+00:00,delivered,Frankfurt,52.961888,-1.061096,carrier_api,"{""shipment_id"": 1, ""status"": ""delivered"", ""source_quality"": ""high""}",2026-03-08T04:26:02+00:00
+8,2,2025-05-25T12:23:59+00:00,created,Hub 04,36.041059,-3.778789,carrier_api,"{""shipment_id"": 2, ""status"": ""created"", ""source_quality"": ""low""}",2025-05-25T12:28:59+00:00
+9,2,2025-05-25T18:50:59+00:00,picked_up,Hub 17,45.321857,2.379568,mobile_app,"{""shipment_id"": 2, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-05-25T18:56:59+00:00
+10,2,2025-05-26T02:23:59+00:00,departed_warehouse,Hub 14,36.466053,8.617401,manual,"{""shipment_id"": 2, ""status"": ""departed_warehouse"", ""source_quality"": ""high""}",2025-05-26T02:31:59+00:00
+11,2,2025-05-26T09:07:59+00:00,in_transit,Hub 01,42.292345,3.402717,carrier_api,"{""shipment_id"": 2, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2025-05-26T09:13:59+00:00
+12,2,2025-05-26T17:51:59+00:00,arrived_hub,Hub 11,36.650363,12.157634,tms,"{""shipment_id"": 2, ""status"": ""arrived_hub"", ""source_quality"": ""low""}",2025-05-26T18:00:59+00:00
+13,2,2025-05-27T00:20:59+00:00,out_for_delivery,Madrid,46.139184,11.277489,mobile_app,"{""shipment_id"": 2, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-05-27T00:26:59+00:00
+14,2,2025-05-27T08:31:59+00:00,delivered,Madrid,40.530318,-8.602271,mobile_app,"{""shipment_id"": 2, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-05-27T08:37:59+00:00
+15,3,2025-02-11T06:15:29+00:00,created,Hub 12,51.043396,14.643118,tms,"{""shipment_id"": 3, ""status"": ""created"", ""source_quality"": ""low""}",2025-02-11T06:17:29+00:00
+16,3,2025-02-11T09:39:29+00:00,picked_up,Hub 19,44.926909,5.003929,tms,"{""shipment_id"": 3, ""status"": ""picked_up"", ""source_quality"": ""low""}",2025-02-11T09:40:29+00:00
+17,3,2025-02-11T12:24:29+00:00,departed_warehouse,Hub 24,41.815348,5.054383,manual,"{""shipment_id"": 3, ""status"": ""departed_warehouse"", ""source_quality"": ""low""}",2025-02-11T12:33:29+00:00
+18,3,2025-02-11T14:42:29+00:00,in_transit,Hub 23,37.892046,-6.073377,tms,"{""shipment_id"": 3, ""status"": ""in_transit"", ""source_quality"": ""high""}",2025-02-11T14:51:29+00:00
+19,3,2025-02-11T17:35:29+00:00,arrived_hub,Hub 09,37.292573,-6.332541,iot_gateway,"{""shipment_id"": 3, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-02-11T17:44:29+00:00
+20,3,2025-02-11T19:58:29+00:00,out_for_delivery,Frankfurt,48.077428,8.283341,mobile_app,"{""shipment_id"": 3, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-02-11T20:04:29+00:00
+21,3,2025-02-11T22:47:29+00:00,delivered,Frankfurt,37.385973,-3.916531,iot_gateway,"{""shipment_id"": 3, ""status"": ""delivered"", ""source_quality"": ""high""}",2025-02-11T22:54:29+00:00
+22,4,2025-03-05T22:03:16+00:00,created,Hub 09,40.425124,1.3506,mobile_app,"{""shipment_id"": 4, ""status"": ""created"", ""source_quality"": ""medium""}",2025-03-05T22:04:16+00:00
+23,4,2025-03-06T01:39:46+00:00,picked_up,Hub 07,40.650007,10.320442,mobile_app,"{""shipment_id"": 4, ""status"": ""picked_up"", ""source_quality"": ""low""}",2025-03-06T01:40:46+00:00
+24,4,2025-03-06T05:13:16+00:00,departed_warehouse,Hub 05,47.771828,14.533853,manual,"{""shipment_id"": 4, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-03-06T05:21:16+00:00
+25,4,2025-03-06T08:04:46+00:00,in_transit,Hub 01,48.070021,11.218358,mobile_app,"{""shipment_id"": 4, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2025-03-06T08:13:46+00:00
+26,4,2025-03-06T12:01:16+00:00,arrived_hub,Hub 24,36.98232,9.941378,iot_gateway,"{""shipment_id"": 4, ""status"": ""arrived_hub"", ""source_quality"": ""high""}",2025-03-06T12:02:16+00:00
+27,4,2025-03-06T15:44:46+00:00,out_for_delivery,Amsterdam,42.324628,2.259752,carrier_api,"{""shipment_id"": 4, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-03-06T15:53:46+00:00
+28,4,2025-03-06T19:10:16+00:00,delivered,Amsterdam,43.163951,-0.893805,manual,"{""shipment_id"": 4, ""status"": ""delivered"", ""source_quality"": ""high""}",2025-03-06T19:19:16+00:00
+29,5,2025-12-09T01:06:10+00:00,created,Hub 05,38.746882,10.871649,mobile_app,"{""shipment_id"": 5, ""status"": ""created"", ""source_quality"": ""medium""}",2025-12-09T01:09:10+00:00
+30,5,2025-12-09T03:56:04+00:00,picked_up,Hub 10,36.06354,13.369518,tms,"{""shipment_id"": 5, ""status"": ""picked_up"", ""source_quality"": ""low""}",2025-12-09T04:05:04+00:00
+31,5,2025-12-09T07:43:58+00:00,departed_warehouse,Hub 18,39.369753,-3.08794,carrier_api,"{""shipment_id"": 5, ""status"": ""departed_warehouse"", ""source_quality"": ""high""}",2025-12-09T07:45:58+00:00
+32,5,2025-12-09T10:51:52+00:00,in_transit,Hub 12,45.652629,-3.345766,manual,"{""shipment_id"": 5, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2025-12-09T10:53:52+00:00
+33,5,2025-12-09T14:35:46+00:00,arrived_hub,Hub 08,41.407968,-0.98353,iot_gateway,"{""shipment_id"": 5, ""status"": ""arrived_hub"", ""source_quality"": ""high""}",2025-12-09T14:38:46+00:00
+34,5,2025-12-09T17:16:40+00:00,out_for_delivery,Frankfurt,45.151233,11.161682,carrier_api,"{""shipment_id"": 5, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-12-09T17:22:40+00:00
+35,5,2025-12-09T19:22:34+00:00,delivered,Frankfurt,47.570687,2.796672,mobile_app,"{""shipment_id"": 5, ""status"": ""delivered"", ""source_quality"": ""low""}",2025-12-09T19:31:34+00:00
+36,6,2026-02-12T16:42:33+00:00,created,Hub 21,50.844034,0.485431,carrier_api,"{""shipment_id"": 6, ""status"": ""created"", ""source_quality"": ""medium""}",2026-02-12T16:47:33+00:00
+37,6,2026-02-12T16:34:15+00:00,picked_up,Hub 03,37.731687,9.166369,mobile_app,"{""shipment_id"": 6, ""status"": ""picked_up"", ""source_quality"": ""low""}",2026-02-12T16:40:15+00:00
+38,6,2026-02-12T19:12:57+00:00,departed_warehouse,Hub 01,44.206265,-7.631987,manual,"{""shipment_id"": 6, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2026-02-12T19:19:57+00:00
+39,6,2026-02-12T19:16:39+00:00,in_transit,Hub 09,49.858052,-6.623013,iot_gateway,"{""shipment_id"": 6, ""status"": ""in_transit"", ""source_quality"": ""high""}",2026-02-12T19:19:39+00:00
+40,6,2026-02-12T20:28:21+00:00,arrived_hub,Hub 17,43.507694,10.69688,mobile_app,"{""shipment_id"": 6, ""status"": ""arrived_hub"", ""source_quality"": ""high""}",2026-02-12T20:30:21+00:00
+41,6,2026-02-12T23:34:03+00:00,out_for_delivery,Rotterdam,49.245677,-8.921647,tms,"{""shipment_id"": 6, ""status"": ""out_for_delivery"", ""source_quality"": ""low""}",2026-02-12T23:36:03+00:00
+42,6,2026-02-12T22:40:45+00:00,delivered,Rotterdam,37.384593,3.358446,manual,"{""shipment_id"": 6, ""status"": ""delivered"", ""source_quality"": ""high""}",2026-02-12T22:42:45+00:00
+43,7,2025-03-02T06:56:40+00:00,created,Hub 09,40.602855,-3.27926,carrier_api,"{""shipment_id"": 7, ""status"": ""created"", ""source_quality"": ""medium""}",2025-03-02T06:58:40+00:00
+44,7,2025-03-02T18:19:16+00:00,cancelled,Hub 02,48.119898,6.358469,mobile_app,"{""shipment_id"": 7, ""status"": ""cancelled"", ""source_quality"": ""high""}",2025-03-02T18:25:16+00:00
+45,8,2025-08-03T13:14:05+00:00,created,Hub 02,42.541068,6.856498,manual,"{""shipment_id"": 8, ""status"": ""created"", ""source_quality"": ""low""}",2025-08-03T13:15:05+00:00
+46,8,2025-08-04T03:13:17+00:00,cancelled,Hub 01,46.73129,-6.341253,mobile_app,"{""shipment_id"": 8, ""status"": ""cancelled"", ""source_quality"": ""low""}",2025-08-04T03:15:17+00:00
+47,9,2026-02-28T04:11:56+00:00,created,Hub 10,46.591988,14.33194,carrier_api,"{""shipment_id"": 9, ""status"": ""created"", ""source_quality"": ""medium""}",2026-02-28T04:13:56+00:00
+48,9,2026-02-28T18:06:56+00:00,cancelled,Hub 17,44.816019,1.592997,tms,"{""shipment_id"": 9, ""status"": ""cancelled"", ""source_quality"": ""low""}",2026-02-28T18:09:56+00:00
+49,10,2025-01-03T04:46:00+00:00,created,Hub 04,45.551046,5.91502,iot_gateway,"{""shipment_id"": 10, ""status"": ""created"", ""source_quality"": ""medium""}",2025-01-03T04:53:00+00:00
+50,10,2025-01-03T12:31:12+00:00,picked_up,Hub 11,52.093361,14.507891,manual,"{""shipment_id"": 10, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-01-03T12:37:12+00:00
+51,10,2025-01-03T20:26:24+00:00,departed_warehouse,Hub 04,49.286887,-1.936,mobile_app,"{""shipment_id"": 10, ""status"": ""departed_warehouse"", ""source_quality"": ""low""}",2025-01-03T20:29:24+00:00
+52,10,2025-01-04T01:42:36+00:00,in_transit,Hub 13,42.803748,-7.31536,carrier_api,"{""shipment_id"": 10, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2025-01-04T01:51:36+00:00
+53,10,2025-01-04T10:05:48+00:00,arrived_hub,Hub 21,41.419803,0.137423,manual,"{""shipment_id"": 10, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-01-04T10:14:48+00:00
+54,10,2025-01-04T16:00:00+00:00,out_for_delivery,Braga,36.851479,-3.778143,tms,"{""shipment_id"": 10, ""status"": ""out_for_delivery"", ""source_quality"": ""low""}",2025-01-04T16:06:00+00:00
+55,10,2025-01-04T22:45:12+00:00,delivered,Braga,46.589887,2.870044,carrier_api,"{""shipment_id"": 10, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-01-04T22:47:12+00:00
+56,11,2025-12-13T10:40:54+00:00,created,Hub 12,36.669332,-2.427675,iot_gateway,"{""shipment_id"": 11, ""status"": ""created"", ""source_quality"": ""medium""}",2025-12-13T10:42:54+00:00
+57,11,2025-12-13T12:50:00+00:00,picked_up,Hub 19,41.901281,-4.330792,tms,"{""shipment_id"": 11, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-12-13T12:53:00+00:00
+58,11,2025-12-13T14:46:06+00:00,departed_warehouse,Hub 01,50.676133,7.703051,tms,"{""shipment_id"": 11, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-12-13T14:55:06+00:00
+59,11,2025-12-13T18:47:12+00:00,in_transit,Hub 22,49.403907,-7.200969,carrier_api,"{""shipment_id"": 11, ""status"": ""in_transit"", ""source_quality"": ""high""}",2025-12-13T18:53:12+00:00
+60,11,2025-12-13T20:44:18+00:00,arrived_hub,Hub 05,50.220936,4.113222,manual,"{""shipment_id"": 11, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-12-13T20:47:18+00:00
+61,11,2025-12-13T23:35:24+00:00,out_for_delivery,Hamburg,42.379975,14.891866,tms,"{""shipment_id"": 11, ""status"": ""out_for_delivery"", ""source_quality"": ""high""}",2025-12-13T23:42:24+00:00
+62,11,2025-12-14T02:35:30+00:00,delivered,Hamburg,49.048849,-6.701285,carrier_api,"{""shipment_id"": 11, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-12-14T02:37:30+00:00
+63,12,2025-05-21T17:12:54+00:00,created,Hub 02,48.075619,0.547547,mobile_app,"{""shipment_id"": 12, ""status"": ""created"", ""source_quality"": ""low""}",2025-05-21T17:19:54+00:00
+64,12,2025-05-21T20:02:06+00:00,picked_up,Hub 11,37.480953,1.536436,tms,"{""shipment_id"": 12, ""status"": ""picked_up"", ""source_quality"": ""high""}",2025-05-21T20:09:06+00:00
+65,12,2025-05-21T23:14:18+00:00,departed_warehouse,Hub 09,52.642123,10.858836,mobile_app,"{""shipment_id"": 12, ""status"": ""departed_warehouse"", ""source_quality"": ""low""}",2025-05-21T23:21:18+00:00
+66,12,2025-05-22T02:14:30+00:00,in_transit,Hub 08,45.89135,5.429662,mobile_app,"{""shipment_id"": 12, ""status"": ""in_transit"", ""source_quality"": ""low""}",2025-05-22T02:21:30+00:00
+67,12,2025-05-22T03:12:42+00:00,arrived_hub,Hub 13,37.110195,-0.140804,carrier_api,"{""shipment_id"": 12, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-05-22T03:19:42+00:00
+68,12,2025-05-22T07:35:54+00:00,out_for_delivery,Toulouse,38.787793,10.540872,manual,"{""shipment_id"": 12, ""status"": ""out_for_delivery"", ""source_quality"": ""low""}",2025-05-22T07:36:54+00:00
+69,12,2025-05-22T10:51:06+00:00,delivered,Toulouse,45.453885,0.902601,iot_gateway,"{""shipment_id"": 12, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-05-22T10:59:06+00:00
+70,13,2025-01-20T09:16:38+00:00,created,Hub 23,44.845351,-1.870327,tms,"{""shipment_id"": 13, ""status"": ""created"", ""source_quality"": ""low""}",2025-01-20T09:18:38+00:00
+71,13,2025-01-22T05:23:38+00:00,cancelled,Hub 11,52.712036,7.263384,tms,"{""shipment_id"": 13, ""status"": ""cancelled"", ""source_quality"": ""medium""}",2025-01-22T05:30:38+00:00
+72,14,2025-09-03T17:05:06+00:00,created,Hub 21,47.678094,8.705016,mobile_app,"{""shipment_id"": 14, ""status"": ""created"", ""source_quality"": ""high""}",2025-09-03T17:06:06+00:00
+73,14,2025-09-04T00:36:06+00:00,picked_up,Hub 03,44.106588,-4.177382,manual,"{""shipment_id"": 14, ""status"": ""picked_up"", ""source_quality"": ""low""}",2025-09-04T00:45:06+00:00
+74,14,2025-09-04T12:10:06+00:00,departed_warehouse,Hub 03,44.912917,-7.398798,manual,"{""shipment_id"": 14, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-09-04T12:14:06+00:00
+75,14,2025-09-04T16:34:06+00:00,in_transit,Hub 05,36.789785,11.760103,manual,"{""shipment_id"": 14, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2025-09-04T16:39:06+00:00
+76,14,2025-09-05T00:57:06+00:00,arrived_hub,Hub 20,38.066805,3.706077,mobile_app,"{""shipment_id"": 14, ""status"": ""arrived_hub"", ""source_quality"": ""low""}",2025-09-05T01:04:06+00:00
+77,14,2025-09-05T08:14:06+00:00,out_for_delivery,Madrid,39.121922,7.036704,iot_gateway,"{""shipment_id"": 14, ""status"": ""out_for_delivery"", ""source_quality"": ""high""}",2025-09-05T08:20:06+00:00
+78,14,2025-09-05T15:11:06+00:00,delivered,Madrid,51.559087,-8.044883,carrier_api,"{""shipment_id"": 14, ""status"": ""delivered"", ""source_quality"": ""low""}",2025-09-05T15:13:06+00:00
+79,15,2025-06-02T15:28:51+00:00,created,Hub 06,42.276248,-6.327279,mobile_app,"{""shipment_id"": 15, ""status"": ""created"", ""source_quality"": ""medium""}",2025-06-02T15:31:51+00:00
+80,15,2025-06-02T16:48:33+00:00,picked_up,Hub 07,44.323013,-1.635455,iot_gateway,"{""shipment_id"": 15, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-06-02T16:50:33+00:00
+81,15,2025-06-02T17:39:15+00:00,departed_warehouse,Hub 03,43.501386,14.021157,iot_gateway,"{""shipment_id"": 15, ""status"": ""departed_warehouse"", ""source_quality"": ""high""}",2025-06-02T17:45:15+00:00
+82,15,2025-06-02T18:07:57+00:00,in_transit,Hub 04,51.288536,13.189288,iot_gateway,"{""shipment_id"": 15, ""status"": ""in_transit"", ""source_quality"": ""high""}",2025-06-02T18:09:57+00:00
+83,15,2025-06-02T19:36:39+00:00,arrived_hub,Hub 22,47.544359,13.869512,mobile_app,"{""shipment_id"": 15, ""status"": ""arrived_hub"", ""source_quality"": ""high""}",2025-06-02T19:44:39+00:00
+84,15,2025-06-02T20:15:21+00:00,out_for_delivery,Rotterdam,37.204549,5.319612,iot_gateway,"{""shipment_id"": 15, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-06-02T20:18:21+00:00
+85,15,2025-06-02T22:22:03+00:00,delivered,Rotterdam,52.546995,6.307088,carrier_api,"{""shipment_id"": 15, ""status"": ""delivered"", ""source_quality"": ""low""}",2025-06-02T22:26:03+00:00
+86,16,2025-03-21T03:20:15+00:00,created,Hub 04,50.916886,-6.114236,carrier_api,"{""shipment_id"": 16, ""status"": ""created"", ""source_quality"": ""medium""}",2025-03-21T03:23:15+00:00
+87,16,2025-03-21T05:34:51+00:00,picked_up,Hub 04,44.748908,1.638138,carrier_api,"{""shipment_id"": 16, ""status"": ""picked_up"", ""source_quality"": ""low""}",2025-03-21T05:36:51+00:00
+88,16,2025-03-21T06:12:27+00:00,departed_warehouse,Hub 21,40.69699,-5.004154,iot_gateway,"{""shipment_id"": 16, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-03-21T06:21:27+00:00
+89,16,2025-03-21T08:17:03+00:00,in_transit,Hub 18,44.403739,9.824108,mobile_app,"{""shipment_id"": 16, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2025-03-21T08:24:03+00:00
+90,16,2025-03-21T11:28:39+00:00,arrived_hub,Hub 17,41.75034,11.069295,iot_gateway,"{""shipment_id"": 16, ""status"": ""arrived_hub"", ""source_quality"": ""high""}",2025-03-21T11:29:39+00:00
+91,16,2025-03-21T13:27:15+00:00,out_for_delivery,Lisbon,42.549736,9.392824,mobile_app,"{""shipment_id"": 16, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-03-21T13:32:15+00:00
+92,16,2025-03-21T15:43:51+00:00,delivered,Lisbon,47.479336,4.105176,manual,"{""shipment_id"": 16, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-03-21T15:52:51+00:00
+93,17,2025-08-24T01:32:46+00:00,created,Hub 09,40.632078,5.273442,tms,"{""shipment_id"": 17, ""status"": ""created"", ""source_quality"": ""low""}",2025-08-24T01:41:46+00:00
+94,17,2025-08-24T05:53:46+00:00,picked_up,Hub 08,52.884532,0.603755,carrier_api,"{""shipment_id"": 17, ""status"": ""picked_up"", ""source_quality"": ""low""}",2025-08-24T05:59:46+00:00
+95,17,2025-08-24T07:10:46+00:00,departed_warehouse,Hub 08,37.89659,8.106771,carrier_api,"{""shipment_id"": 17, ""status"": ""departed_warehouse"", ""source_quality"": ""high""}",2025-08-24T07:15:46+00:00
+96,17,2025-08-24T08:50:46+00:00,in_transit,Hub 23,51.479188,10.132404,tms,"{""shipment_id"": 17, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2025-08-24T08:55:46+00:00
+97,17,2025-08-24T12:25:46+00:00,arrived_hub,Hub 06,41.354093,-6.418732,iot_gateway,"{""shipment_id"": 17, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-08-24T12:31:46+00:00
+98,17,2025-08-24T14:45:46+00:00,out_for_delivery,Frankfurt,44.342233,1.504826,carrier_api,"{""shipment_id"": 17, ""status"": ""out_for_delivery"", ""source_quality"": ""low""}",2025-08-24T14:54:46+00:00
+99,17,2025-08-24T16:17:46+00:00,delivered,Frankfurt,52.605715,-0.53892,mobile_app,"{""shipment_id"": 17, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-08-24T16:21:46+00:00
+100,18,2025-01-10T07:33:54+00:00,created,Hub 22,48.771283,10.875724,iot_gateway,"{""shipment_id"": 18, ""status"": ""created"", ""source_quality"": ""medium""}",2025-01-10T07:41:54+00:00
+101,18,2025-01-10T20:02:36+00:00,picked_up,Hub 07,51.473814,-1.564315,iot_gateway,"{""shipment_id"": 18, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-01-10T20:05:36+00:00
+102,18,2025-01-11T12:29:18+00:00,departed_warehouse,Hub 22,36.102967,-7.707345,manual,"{""shipment_id"": 18, ""status"": ""departed_warehouse"", ""source_quality"": ""high""}",2025-01-11T12:36:18+00:00
+103,18,2025-01-12T02:59:00+00:00,in_transit,Hub 18,47.757386,7.941003,carrier_api,"{""shipment_id"": 18, ""status"": ""in_transit"", ""source_quality"": ""high""}",2025-01-12T03:07:00+00:00
+104,18,2025-01-12T17:07:42+00:00,arrived_hub,Hub 21,45.211355,-1.636459,mobile_app,"{""shipment_id"": 18, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-01-12T17:10:42+00:00
+105,18,2025-01-13T09:25:24+00:00,out_for_delivery,Porto,40.515726,-2.396073,carrier_api,"{""shipment_id"": 18, ""status"": ""out_for_delivery"", ""source_quality"": ""high""}",2025-01-13T09:33:24+00:00
+106,18,2025-01-14T01:50:06+00:00,delivered,Porto,46.716288,3.922573,tms,"{""shipment_id"": 18, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-01-14T01:55:06+00:00
+107,19,2025-11-14T23:22:41+00:00,created,Hub 04,40.755227,14.667663,iot_gateway,"{""shipment_id"": 19, ""status"": ""created"", ""source_quality"": ""high""}",2025-11-14T23:30:41+00:00
+108,19,2025-11-15T07:52:41+00:00,picked_up,Hub 02,36.590593,-3.611057,manual,"{""shipment_id"": 19, ""status"": ""picked_up"", ""source_quality"": ""low""}",2025-11-15T08:01:41+00:00
+109,19,2025-11-15T15:21:41+00:00,departed_warehouse,Hub 08,45.691536,8.525541,tms,"{""shipment_id"": 19, ""status"": ""departed_warehouse"", ""source_quality"": ""low""}",2025-11-15T15:24:41+00:00
+110,19,2025-11-15T22:13:41+00:00,in_transit,Hub 10,42.920483,-8.60974,tms,"{""shipment_id"": 19, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2025-11-15T22:14:41+00:00
+111,19,2025-11-16T05:56:41+00:00,arrived_hub,Hub 08,37.453832,12.034905,mobile_app,"{""shipment_id"": 19, ""status"": ""arrived_hub"", ""source_quality"": ""high""}",2025-11-16T05:58:41+00:00
+112,19,2025-11-16T13:30:41+00:00,out_for_delivery,Madrid,46.357072,5.903226,mobile_app,"{""shipment_id"": 19, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-11-16T13:34:41+00:00
+113,19,2025-11-16T20:37:41+00:00,delivered,Madrid,40.37626,11.997808,carrier_api,"{""shipment_id"": 19, ""status"": ""delivered"", ""source_quality"": ""high""}",2025-11-16T20:39:41+00:00
+114,20,2025-09-23T18:00:00+00:00,created,Hub 12,41.610026,-0.216476,iot_gateway,"{""shipment_id"": 20, ""status"": ""created"", ""source_quality"": ""high""}",2025-09-23T18:08:00+00:00
+115,20,2025-09-24T01:50:00+00:00,picked_up,Hub 16,51.074433,-2.394357,carrier_api,"{""shipment_id"": 20, ""status"": ""picked_up"", ""source_quality"": ""low""}",2025-09-24T01:56:00+00:00
+116,20,2025-09-24T08:48:00+00:00,departed_warehouse,Hub 01,52.94863,10.710741,carrier_api,"{""shipment_id"": 20, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-09-24T08:52:00+00:00
+117,20,2025-09-24T16:55:00+00:00,in_transit,Hub 01,48.793797,10.84151,carrier_api,"{""shipment_id"": 20, ""status"": ""in_transit"", ""source_quality"": ""low""}",2025-09-24T17:01:00+00:00
+118,20,2025-09-25T00:36:00+00:00,arrived_hub,Hub 22,38.339391,1.108808,carrier_api,"{""shipment_id"": 20, ""status"": ""arrived_hub"", ""source_quality"": ""high""}",2025-09-25T00:43:00+00:00
+119,20,2025-09-25T07:03:00+00:00,out_for_delivery,Madrid,36.941009,-4.387316,carrier_api,"{""shipment_id"": 20, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-09-25T07:05:00+00:00
+120,20,2025-09-25T14:38:00+00:00,delivered,Madrid,51.916636,-0.039763,tms,"{""shipment_id"": 20, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-09-25T14:40:00+00:00
+121,21,2025-05-10T13:34:45+00:00,created,Hub 03,49.505013,6.55703,manual,"{""shipment_id"": 21, ""status"": ""created"", ""source_quality"": ""high""}",2025-05-10T13:40:45+00:00
+122,21,2025-05-10T16:40:57+00:00,picked_up,Hub 08,49.705759,10.280136,carrier_api,"{""shipment_id"": 21, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-05-10T16:46:57+00:00
+123,21,2025-05-10T19:07:09+00:00,departed_warehouse,Hub 04,47.654541,-2.549349,iot_gateway,"{""shipment_id"": 21, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-05-10T19:11:09+00:00
+124,21,2025-05-10T21:46:21+00:00,in_transit,Hub 22,49.604208,12.582254,manual,"{""shipment_id"": 21, ""status"": ""in_transit"", ""source_quality"": ""high""}",2025-05-10T21:51:21+00:00
+125,21,2025-05-11T01:59:33+00:00,arrived_hub,Hub 10,49.015493,-5.00047,mobile_app,"{""shipment_id"": 21, ""status"": ""arrived_hub"", ""source_quality"": ""low""}",2025-05-11T02:01:33+00:00
+126,21,2025-05-11T04:26:45+00:00,out_for_delivery,Toulouse,52.418169,12.106783,carrier_api,"{""shipment_id"": 21, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-05-11T04:28:45+00:00
+127,21,2025-05-11T06:35:57+00:00,delivered,Toulouse,36.714102,4.586653,manual,"{""shipment_id"": 21, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-05-11T06:37:57+00:00
+128,22,2025-10-09T06:47:37+00:00,created,Hub 16,48.290224,-3.932309,manual,"{""shipment_id"": 22, ""status"": ""created"", ""source_quality"": ""medium""}",2025-10-09T06:51:37+00:00
+129,22,2025-10-09T07:56:49+00:00,picked_up,Hub 20,38.241542,-0.372466,tms,"{""shipment_id"": 22, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-10-09T08:00:49+00:00
+130,22,2025-10-09T11:57:01+00:00,departed_warehouse,Hub 05,52.342089,1.993452,iot_gateway,"{""shipment_id"": 22, ""status"": ""departed_warehouse"", ""source_quality"": ""high""}",2025-10-09T12:04:01+00:00
+131,22,2025-10-09T13:48:13+00:00,in_transit,Hub 22,47.169218,-8.971854,iot_gateway,"{""shipment_id"": 22, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2025-10-09T13:51:13+00:00
+132,22,2025-10-09T17:12:25+00:00,arrived_hub,Hub 02,44.666769,5.084778,tms,"{""shipment_id"": 22, ""status"": ""arrived_hub"", ""source_quality"": ""low""}",2025-10-09T17:19:25+00:00
+133,22,2025-10-09T18:54:37+00:00,out_for_delivery,Toulouse,52.06801,6.077661,mobile_app,"{""shipment_id"": 22, ""status"": ""out_for_delivery"", ""source_quality"": ""low""}",2025-10-09T19:02:37+00:00
+134,22,2025-10-09T22:52:49+00:00,delivered,Toulouse,36.205873,6.366115,tms,"{""shipment_id"": 22, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-10-09T22:57:49+00:00
+135,23,2025-04-15T11:22:52+00:00,created,Hub 22,39.03104,2.368278,carrier_api,"{""shipment_id"": 23, ""status"": ""created"", ""source_quality"": ""medium""}",2025-04-15T11:25:52+00:00
+136,23,2025-04-15T12:44:04+00:00,picked_up,Hub 05,52.450518,11.646801,tms,"{""shipment_id"": 23, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-04-15T12:51:04+00:00
+137,23,2025-04-15T15:21:16+00:00,departed_warehouse,Hub 14,43.920838,10.487819,mobile_app,"{""shipment_id"": 23, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-04-15T15:26:16+00:00
+138,23,2025-04-15T17:49:28+00:00,in_transit,Hub 18,36.545409,-8.867444,manual,"{""shipment_id"": 23, ""status"": ""in_transit"", ""source_quality"": ""low""}",2025-04-15T17:50:28+00:00
+139,23,2025-04-15T20:01:40+00:00,arrived_hub,Hub 23,44.143174,2.23992,mobile_app,"{""shipment_id"": 23, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-04-15T20:09:40+00:00
+140,23,2025-04-15T22:01:52+00:00,out_for_delivery,Porto,41.885466,-2.097342,mobile_app,"{""shipment_id"": 23, ""status"": ""out_for_delivery"", ""source_quality"": ""low""}",2025-04-15T22:07:52+00:00
+141,23,2025-04-15T23:23:04+00:00,delivered,Porto,48.205266,-8.863445,mobile_app,"{""shipment_id"": 23, ""status"": ""delivered"", ""source_quality"": ""high""}",2025-04-15T23:28:04+00:00
+142,24,2025-12-28T08:16:02+00:00,created,Hub 07,40.21326,3.961006,carrier_api,"{""shipment_id"": 24, ""status"": ""created"", ""source_quality"": ""low""}",2025-12-28T08:19:02+00:00
+143,24,2025-12-28T11:53:14+00:00,picked_up,Hub 18,41.214427,10.384357,mobile_app,"{""shipment_id"": 24, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-12-28T11:59:14+00:00
+144,24,2025-12-28T15:22:26+00:00,departed_warehouse,Hub 07,52.06062,-1.304029,mobile_app,"{""shipment_id"": 24, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-12-28T15:29:26+00:00
+145,24,2025-12-28T17:40:38+00:00,in_transit,Hub 20,50.060839,-6.67283,mobile_app,"{""shipment_id"": 24, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2025-12-28T17:44:38+00:00
+146,24,2025-12-28T21:25:50+00:00,arrived_hub,Hub 10,45.394493,-3.754905,manual,"{""shipment_id"": 24, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-12-28T21:27:50+00:00
+147,24,2025-12-28T23:16:02+00:00,out_for_delivery,Toulouse,37.638875,2.645878,manual,"{""shipment_id"": 24, ""status"": ""out_for_delivery"", ""source_quality"": ""high""}",2025-12-28T23:23:02+00:00
+148,24,2025-12-29T03:25:14+00:00,delivered,Toulouse,42.145933,-5.012195,tms,"{""shipment_id"": 24, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-12-29T03:32:14+00:00
+149,25,2025-10-08T09:27:10+00:00,created,Hub 04,41.675267,8.481031,iot_gateway,"{""shipment_id"": 25, ""status"": ""created"", ""source_quality"": ""low""}",2025-10-08T09:31:10+00:00
+150,25,2025-10-08T12:19:40+00:00,picked_up,Hub 12,52.075552,4.609263,iot_gateway,"{""shipment_id"": 25, ""status"": ""picked_up"", ""source_quality"": ""low""}",2025-10-08T12:21:40+00:00
+151,25,2025-10-08T15:19:10+00:00,departed_warehouse,Hub 02,48.654572,10.69118,tms,"{""shipment_id"": 25, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-10-08T15:22:10+00:00
+152,25,2025-10-08T18:54:40+00:00,in_transit,Hub 03,46.643421,-0.238415,carrier_api,"{""shipment_id"": 25, ""status"": ""in_transit"", ""source_quality"": ""high""}",2025-10-08T18:56:40+00:00
+153,25,2025-10-08T23:20:10+00:00,arrived_hub,Hub 22,46.193917,9.138116,manual,"{""shipment_id"": 25, ""status"": ""arrived_hub"", ""source_quality"": ""low""}",2025-10-08T23:27:10+00:00
+154,25,2025-10-09T01:50:40+00:00,out_for_delivery,Amsterdam,45.773481,-4.509762,tms,"{""shipment_id"": 25, ""status"": ""out_for_delivery"", ""source_quality"": ""low""}",2025-10-09T01:58:40+00:00
+155,25,2025-10-09T05:03:10+00:00,delivered,Amsterdam,41.654534,6.636572,iot_gateway,"{""shipment_id"": 25, ""status"": ""delivered"", ""source_quality"": ""high""}",2025-10-09T05:04:10+00:00
+156,26,2026-02-02T15:46:22+00:00,created,Hub 05,43.44265,7.536449,manual,"{""shipment_id"": 26, ""status"": ""created"", ""source_quality"": ""medium""}",2026-02-02T15:55:22+00:00
+157,26,2026-02-02T17:35:58+00:00,picked_up,Hub 06,51.416198,8.919583,iot_gateway,"{""shipment_id"": 26, ""status"": ""picked_up"", ""source_quality"": ""high""}",2026-02-02T17:36:58+00:00
+158,26,2026-02-02T19:58:34+00:00,departed_warehouse,Hub 16,45.678591,-0.286378,iot_gateway,"{""shipment_id"": 26, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2026-02-02T20:06:34+00:00
+159,26,2026-02-02T21:15:10+00:00,in_transit,Hub 15,49.589866,10.032473,manual,"{""shipment_id"": 26, ""status"": ""in_transit"", ""source_quality"": ""low""}",2026-02-02T21:16:10+00:00
+160,26,2026-02-03T01:14:46+00:00,arrived_hub,Hub 21,44.523864,0.054714,manual,"{""shipment_id"": 26, ""status"": ""arrived_hub"", ""source_quality"": ""low""}",2026-02-03T01:15:46+00:00
+161,26,2026-02-03T02:28:22+00:00,out_for_delivery,Lisbon,46.711422,-8.383143,mobile_app,"{""shipment_id"": 26, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2026-02-03T02:29:22+00:00
+162,26,2026-02-03T04:45:58+00:00,delivered,Lisbon,51.087496,0.000182,iot_gateway,"{""shipment_id"": 26, ""status"": ""delivered"", ""source_quality"": ""low""}",2026-02-03T04:47:58+00:00
+163,27,2025-06-10T01:22:36+00:00,created,Hub 24,36.01514,3.56827,tms,"{""shipment_id"": 27, ""status"": ""created"", ""source_quality"": ""medium""}",2025-06-10T01:25:36+00:00
+164,27,2025-06-10T02:46:12+00:00,picked_up,Hub 24,50.493178,-2.489857,tms,"{""shipment_id"": 27, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-06-10T02:52:12+00:00
+165,27,2025-06-10T04:45:48+00:00,departed_warehouse,Hub 22,52.089163,13.988654,tms,"{""shipment_id"": 27, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-06-10T04:51:48+00:00
+166,27,2025-06-10T07:35:24+00:00,in_transit,Hub 05,47.408277,12.117895,iot_gateway,"{""shipment_id"": 27, ""status"": ""in_transit"", ""source_quality"": ""low""}",2025-06-10T07:38:24+00:00
+167,27,2025-06-10T11:14:00+00:00,arrived_hub,Hub 08,40.448922,-7.415258,manual,"{""shipment_id"": 27, ""status"": ""arrived_hub"", ""source_quality"": ""high""}",2025-06-10T11:21:00+00:00
+168,27,2025-06-10T11:33:36+00:00,out_for_delivery,Lisbon,45.109594,8.949551,tms,"{""shipment_id"": 27, ""status"": ""out_for_delivery"", ""source_quality"": ""high""}",2025-06-10T11:41:36+00:00
+169,27,2025-06-10T13:37:12+00:00,delivered,Lisbon,50.954486,13.393488,manual,"{""shipment_id"": 27, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-06-10T13:40:12+00:00
+170,28,2025-08-22T15:45:02+00:00,created,Hub 18,51.511779,1.085149,carrier_api,"{""shipment_id"": 28, ""status"": ""created"", ""source_quality"": ""low""}",2025-08-22T15:54:02+00:00
+171,28,2025-08-22T18:39:14+00:00,picked_up,Hub 12,47.788319,5.966336,iot_gateway,"{""shipment_id"": 28, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-08-22T18:45:14+00:00
+172,28,2025-08-22T20:16:26+00:00,departed_warehouse,Hub 05,40.460152,12.817732,carrier_api,"{""shipment_id"": 28, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-08-22T20:21:26+00:00
+173,28,2025-08-22T23:56:38+00:00,in_transit,Hub 11,36.776167,13.138728,tms,"{""shipment_id"": 28, ""status"": ""in_transit"", ""source_quality"": ""low""}",2025-08-23T00:03:38+00:00
+174,28,2025-08-23T00:52:50+00:00,arrived_hub,Hub 21,36.312316,0.448084,iot_gateway,"{""shipment_id"": 28, ""status"": ""arrived_hub"", ""source_quality"": ""low""}",2025-08-23T00:55:50+00:00
+175,28,2025-08-23T03:17:02+00:00,out_for_delivery,Porto,49.720999,12.907127,iot_gateway,"{""shipment_id"": 28, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-08-23T03:19:02+00:00
+176,28,2025-08-23T05:49:14+00:00,delivered,Porto,38.96453,-0.618188,carrier_api,"{""shipment_id"": 28, ""status"": ""delivered"", ""source_quality"": ""high""}",2025-08-23T05:57:14+00:00
+177,29,2025-05-05T12:56:55+00:00,created,Hub 18,36.08804,-7.645367,iot_gateway,"{""shipment_id"": 29, ""status"": ""created"", ""source_quality"": ""medium""}",2025-05-05T12:57:55+00:00
+178,29,2025-05-05T23:22:13+00:00,picked_up,Hub 01,41.996951,10.954606,iot_gateway,"{""shipment_id"": 29, ""status"": ""picked_up"", ""source_quality"": ""low""}",2025-05-05T23:31:13+00:00
+179,29,2025-05-06T07:54:31+00:00,departed_warehouse,Hub 05,49.204045,-3.859961,carrier_api,"{""shipment_id"": 29, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-05-06T08:03:31+00:00
+180,29,2025-05-06T18:46:49+00:00,in_transit,Hub 01,40.982294,-1.74954,manual,"{""shipment_id"": 29, ""status"": ""in_transit"", ""source_quality"": ""high""}",2025-05-06T18:53:49+00:00
+181,29,2025-05-07T05:54:07+00:00,arrived_hub,Hub 20,38.135605,3.844074,iot_gateway,"{""shipment_id"": 29, ""status"": ""arrived_hub"", ""source_quality"": ""high""}",2025-05-07T06:03:07+00:00
+182,29,2025-05-07T16:38:25+00:00,out_for_delivery,Amsterdam,45.014948,-2.474927,mobile_app,"{""shipment_id"": 29, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-05-07T16:40:25+00:00
+183,29,2025-05-08T00:41:43+00:00,delivered,Amsterdam,41.83826,5.847446,tms,"{""shipment_id"": 29, ""status"": ""delivered"", ""source_quality"": ""low""}",2025-05-08T00:47:43+00:00
+184,30,2025-08-25T13:52:36+00:00,created,Hub 15,40.066724,0.889967,manual,"{""shipment_id"": 30, ""status"": ""created"", ""source_quality"": ""medium""}",2025-08-25T13:55:36+00:00
+185,30,2025-08-26T05:10:12+00:00,cancelled,Hub 13,42.987226,8.858979,manual,"{""shipment_id"": 30, ""status"": ""cancelled"", ""source_quality"": ""low""}",2025-08-26T05:11:12+00:00
+186,31,2025-07-14T15:56:28+00:00,created,Hub 16,37.723985,6.785231,manual,"{""shipment_id"": 31, ""status"": ""created"", ""source_quality"": ""low""}",2025-07-14T15:58:28+00:00
+187,31,2025-07-14T20:50:34+00:00,picked_up,Hub 13,52.015875,-5.921406,tms,"{""shipment_id"": 31, ""status"": ""picked_up"", ""source_quality"": ""high""}",2025-07-14T20:53:34+00:00
+188,31,2025-07-14T22:03:40+00:00,departed_warehouse,Hub 23,39.595058,14.710442,carrier_api,"{""shipment_id"": 31, ""status"": ""departed_warehouse"", ""source_quality"": ""low""}",2025-07-14T22:12:40+00:00
+189,31,2025-07-15T02:20:46+00:00,in_transit,Hub 23,52.188947,9.008072,carrier_api,"{""shipment_id"": 31, ""status"": ""in_transit"", ""source_quality"": ""high""}",2025-07-15T02:24:46+00:00
+190,31,2025-07-15T03:35:52+00:00,arrived_hub,Hub 13,42.922195,-8.368751,tms,"{""shipment_id"": 31, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-07-15T03:38:52+00:00
+191,31,2025-07-15T05:41:58+00:00,out_for_delivery,Hamburg,40.620837,-8.680839,manual,"{""shipment_id"": 31, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-07-15T05:50:58+00:00
+192,31,2025-07-15T09:12:04+00:00,delivered,Hamburg,42.828665,3.804169,carrier_api,"{""shipment_id"": 31, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-07-15T09:20:04+00:00
+193,32,2026-02-04T20:16:37+00:00,created,Hub 04,44.348432,-2.42853,carrier_api,"{""shipment_id"": 32, ""status"": ""created"", ""source_quality"": ""medium""}",2026-02-04T20:21:37+00:00
+194,32,2026-02-05T02:43:49+00:00,picked_up,Hub 04,43.154836,-2.806736,carrier_api,"{""shipment_id"": 32, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2026-02-05T02:49:49+00:00
+195,32,2026-02-05T08:47:01+00:00,departed_warehouse,Hub 06,43.969693,10.92415,mobile_app,"{""shipment_id"": 32, ""status"": ""departed_warehouse"", ""source_quality"": ""low""}",2026-02-05T08:53:01+00:00
+196,32,2026-02-05T18:02:13+00:00,in_transit,Hub 18,40.522602,-4.937001,manual,"{""shipment_id"": 32, ""status"": ""in_transit"", ""source_quality"": ""high""}",2026-02-05T18:07:13+00:00
+197,32,2026-02-05T23:57:25+00:00,arrived_hub,Hub 07,37.327045,5.730905,carrier_api,"{""shipment_id"": 32, ""status"": ""arrived_hub"", ""source_quality"": ""low""}",2026-02-06T00:00:25+00:00
+198,32,2026-02-06T07:32:37+00:00,out_for_delivery,Braga,46.009452,1.526595,iot_gateway,"{""shipment_id"": 32, ""status"": ""out_for_delivery"", ""source_quality"": ""low""}",2026-02-06T07:41:37+00:00
+199,32,2026-02-06T14:52:49+00:00,delivered,Braga,47.699815,7.722873,manual,"{""shipment_id"": 32, ""status"": ""delivered"", ""source_quality"": ""low""}",2026-02-06T14:56:49+00:00
+200,33,2025-10-20T16:22:54+00:00,created,Hub 22,37.118486,13.380236,carrier_api,"{""shipment_id"": 33, ""status"": ""created"", ""source_quality"": ""medium""}",2025-10-20T16:24:54+00:00
+201,33,2025-10-20T18:54:06+00:00,picked_up,Hub 15,38.114116,1.707364,tms,"{""shipment_id"": 33, ""status"": ""picked_up"", ""source_quality"": ""low""}",2025-10-20T18:58:06+00:00
+202,33,2025-10-20T21:38:18+00:00,departed_warehouse,Hub 15,47.005608,10.015168,tms,"{""shipment_id"": 33, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-10-20T21:44:18+00:00
+203,33,2025-10-21T00:28:30+00:00,in_transit,Hub 08,45.217107,5.508582,carrier_api,"{""shipment_id"": 33, ""status"": ""in_transit"", ""source_quality"": ""high""}",2025-10-21T00:32:30+00:00
+204,33,2025-10-21T04:58:42+00:00,arrived_hub,Hub 22,41.15717,9.401386,carrier_api,"{""shipment_id"": 33, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-10-21T05:06:42+00:00
+205,33,2025-10-21T06:17:54+00:00,out_for_delivery,Toulouse,38.877802,-4.273016,iot_gateway,"{""shipment_id"": 33, ""status"": ""out_for_delivery"", ""source_quality"": ""low""}",2025-10-21T06:22:54+00:00
+206,33,2025-10-21T10:02:06+00:00,delivered,Toulouse,46.597124,-1.159827,iot_gateway,"{""shipment_id"": 33, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-10-21T10:07:06+00:00
+207,34,2026-01-17T14:05:44+00:00,created,Hub 02,47.47327,10.43969,mobile_app,"{""shipment_id"": 34, ""status"": ""created"", ""source_quality"": ""low""}",2026-01-17T14:06:44+00:00
+208,34,2026-01-18T04:02:44+00:00,cancelled,Hub 15,52.655975,4.27042,carrier_api,"{""shipment_id"": 34, ""status"": ""cancelled"", ""source_quality"": ""low""}",2026-01-18T04:08:44+00:00
+209,35,2025-02-16T16:37:32+00:00,created,Hub 03,50.42483,4.675113,manual,"{""shipment_id"": 35, ""status"": ""created"", ""source_quality"": ""medium""}",2025-02-16T16:46:32+00:00
+210,35,2025-02-16T18:29:44+00:00,picked_up,Hub 16,45.831459,9.890459,manual,"{""shipment_id"": 35, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-02-16T18:36:44+00:00
+211,35,2025-02-16T20:58:56+00:00,departed_warehouse,Hub 04,39.031374,7.717112,mobile_app,"{""shipment_id"": 35, ""status"": ""departed_warehouse"", ""source_quality"": ""low""}",2025-02-16T21:02:56+00:00
+212,35,2025-02-16T22:11:08+00:00,in_transit,Hub 01,37.932457,6.269703,tms,"{""shipment_id"": 35, ""status"": ""in_transit"", ""source_quality"": ""low""}",2025-02-16T22:15:08+00:00
+213,35,2025-02-17T01:15:20+00:00,arrived_hub,Hub 04,52.986566,-0.326913,carrier_api,"{""shipment_id"": 35, ""status"": ""arrived_hub"", ""source_quality"": ""low""}",2025-02-17T01:24:20+00:00
+214,35,2025-02-17T03:47:32+00:00,out_for_delivery,Porto,41.11215,1.058635,iot_gateway,"{""shipment_id"": 35, ""status"": ""out_for_delivery"", ""source_quality"": ""high""}",2025-02-17T03:49:32+00:00
+215,35,2025-02-17T04:55:44+00:00,delivered,Porto,40.375025,4.889309,tms,"{""shipment_id"": 35, ""status"": ""delivered"", ""source_quality"": ""high""}",2025-02-17T04:59:44+00:00
+216,36,2026-01-23T01:13:40+00:00,created,Hub 12,45.798998,-8.311691,manual,"{""shipment_id"": 36, ""status"": ""created"", ""source_quality"": ""medium""}",2026-01-23T01:18:40+00:00
+217,36,2026-01-23T16:41:22+00:00,picked_up,Hub 22,44.95071,5.851486,carrier_api,"{""shipment_id"": 36, ""status"": ""picked_up"", ""source_quality"": ""low""}",2026-01-23T16:45:22+00:00
+218,36,2026-01-24T06:10:04+00:00,departed_warehouse,Hub 24,43.771145,-2.199222,iot_gateway,"{""shipment_id"": 36, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2026-01-24T06:16:04+00:00
+219,36,2026-01-24T22:09:46+00:00,in_transit,Hub 13,46.211781,3.294235,carrier_api,"{""shipment_id"": 36, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2026-01-24T22:12:46+00:00
+220,36,2026-01-25T12:48:28+00:00,arrived_hub,Hub 02,47.030386,-0.811544,manual,"{""shipment_id"": 36, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2026-01-25T12:55:28+00:00
+221,36,2026-01-26T03:11:10+00:00,out_for_delivery,Porto,49.694181,1.110639,iot_gateway,"{""shipment_id"": 36, ""status"": ""out_for_delivery"", ""source_quality"": ""low""}",2026-01-26T03:15:10+00:00
+222,36,2026-01-26T18:13:52+00:00,delivered,Porto,52.555851,12.072526,iot_gateway,"{""shipment_id"": 36, ""status"": ""delivered"", ""source_quality"": ""high""}",2026-01-26T18:16:52+00:00
+223,37,2026-03-09T00:54:03+00:00,created,Hub 24,37.403481,4.019486,iot_gateway,"{""shipment_id"": 37, ""status"": ""created"", ""source_quality"": ""high""}",2026-03-09T00:59:03+00:00
+224,37,2026-03-09T05:01:33+00:00,picked_up,Hub 07,40.920167,-0.735898,tms,"{""shipment_id"": 37, ""status"": ""picked_up"", ""source_quality"": ""low""}",2026-03-09T05:08:33+00:00
+225,37,2026-03-09T08:29:03+00:00,departed_warehouse,Hub 04,44.795507,5.142161,manual,"{""shipment_id"": 37, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2026-03-09T08:36:03+00:00
+226,37,2026-03-09T12:01:33+00:00,in_transit,Hub 16,41.900624,13.735958,manual,"{""shipment_id"": 37, ""status"": ""in_transit"", ""source_quality"": ""high""}",2026-03-09T12:06:33+00:00
+227,37,2026-03-09T14:42:03+00:00,arrived_hub,Hub 23,37.529847,-7.297493,iot_gateway,"{""shipment_id"": 37, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2026-03-09T14:51:03+00:00
+228,37,2026-03-09T18:19:33+00:00,out_for_delivery,Amsterdam,41.029101,-4.299472,manual,"{""shipment_id"": 37, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2026-03-09T18:22:33+00:00
+229,37,2026-03-09T21:18:03+00:00,delivered,Amsterdam,41.702493,2.663264,carrier_api,"{""shipment_id"": 37, ""status"": ""delivered"", ""source_quality"": ""medium""}",2026-03-09T21:24:03+00:00
+230,38,2025-07-13T19:54:02+00:00,created,Hub 13,43.323695,13.1527,manual,"{""shipment_id"": 38, ""status"": ""created"", ""source_quality"": ""medium""}",2025-07-13T19:58:02+00:00
+231,38,2025-07-13T21:27:14+00:00,picked_up,Hub 19,51.516578,0.888534,tms,"{""shipment_id"": 38, ""status"": ""picked_up"", ""source_quality"": ""high""}",2025-07-13T21:29:14+00:00
+232,38,2025-07-13T23:24:26+00:00,departed_warehouse,Hub 02,42.148902,-1.044883,tms,"{""shipment_id"": 38, ""status"": ""departed_warehouse"", ""source_quality"": ""low""}",2025-07-13T23:27:26+00:00
+233,38,2025-07-14T02:07:38+00:00,in_transit,Hub 15,51.748098,2.438345,tms,"{""shipment_id"": 38, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2025-07-14T02:12:38+00:00
+234,38,2025-07-14T05:28:50+00:00,arrived_hub,Hub 21,48.112013,0.982482,carrier_api,"{""shipment_id"": 38, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-07-14T05:37:50+00:00
+235,38,2025-07-14T06:54:02+00:00,out_for_delivery,Porto,39.454139,11.673459,iot_gateway,"{""shipment_id"": 38, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-07-14T07:00:02+00:00
+236,38,2025-07-14T09:16:14+00:00,delivered,Porto,51.505787,-5.187403,iot_gateway,"{""shipment_id"": 38, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-07-14T09:22:14+00:00
+237,39,2025-05-20T18:46:31+00:00,created,Hub 21,40.481962,-2.9488,iot_gateway,"{""shipment_id"": 39, ""status"": ""created"", ""source_quality"": ""low""}",2025-05-20T18:47:31+00:00
+238,39,2025-05-21T02:39:43+00:00,picked_up,Hub 18,48.137613,13.806951,mobile_app,"{""shipment_id"": 39, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-05-21T02:44:43+00:00
+239,39,2025-05-21T07:48:55+00:00,departed_warehouse,Hub 12,42.974412,-1.430723,iot_gateway,"{""shipment_id"": 39, ""status"": ""departed_warehouse"", ""source_quality"": ""high""}",2025-05-21T07:57:55+00:00
+240,39,2025-05-21T17:02:07+00:00,in_transit,Hub 22,51.994778,10.668815,manual,"{""shipment_id"": 39, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2025-05-21T17:03:07+00:00
+241,39,2025-05-21T23:31:19+00:00,arrived_hub,Hub 09,38.966387,13.87772,iot_gateway,"{""shipment_id"": 39, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-05-21T23:39:19+00:00
+242,39,2025-05-22T05:53:31+00:00,out_for_delivery,Braga,47.806994,12.793521,carrier_api,"{""shipment_id"": 39, ""status"": ""out_for_delivery"", ""source_quality"": ""high""}",2025-05-22T05:59:31+00:00
+243,39,2025-05-22T14:59:43+00:00,delivered,Braga,36.63681,-4.305139,tms,"{""shipment_id"": 39, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-05-22T15:03:43+00:00
+244,40,2025-10-31T00:16:45+00:00,created,Hub 22,39.434156,4.901945,tms,"{""shipment_id"": 40, ""status"": ""created"", ""source_quality"": ""medium""}",2025-10-31T00:23:45+00:00
+245,40,2025-10-31T02:59:39+00:00,picked_up,Hub 19,50.921529,9.21013,mobile_app,"{""shipment_id"": 40, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-10-31T03:06:39+00:00
+246,40,2025-10-31T06:36:33+00:00,departed_warehouse,Hub 21,40.965305,-0.478134,carrier_api,"{""shipment_id"": 40, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-10-31T06:43:33+00:00
+247,40,2025-10-31T08:08:27+00:00,in_transit,Hub 11,37.901157,11.845881,mobile_app,"{""shipment_id"": 40, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2025-10-31T08:13:27+00:00
+248,40,2025-10-31T12:49:21+00:00,arrived_hub,Hub 14,40.339028,-5.252279,carrier_api,"{""shipment_id"": 40, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-10-31T12:55:21+00:00
+249,40,2025-10-31T15:11:15+00:00,out_for_delivery,Frankfurt,38.578445,7.854901,iot_gateway,"{""shipment_id"": 40, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-10-31T15:15:15+00:00
+250,40,2025-10-31T17:25:09+00:00,delivered,Frankfurt,44.567662,-1.54338,mobile_app,"{""shipment_id"": 40, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-10-31T17:31:09+00:00
+251,41,2025-08-12T00:07:28+00:00,created,Hub 09,50.045612,-3.089357,carrier_api,"{""shipment_id"": 41, ""status"": ""created"", ""source_quality"": ""medium""}",2025-08-12T00:14:28+00:00
+252,41,2025-08-12T00:09:22+00:00,picked_up,Hub 23,50.408644,4.560494,iot_gateway,"{""shipment_id"": 41, ""status"": ""picked_up"", ""source_quality"": ""high""}",2025-08-12T00:17:22+00:00
+253,41,2025-08-12T04:12:16+00:00,departed_warehouse,Hub 24,40.129084,7.021119,manual,"{""shipment_id"": 41, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-08-12T04:21:16+00:00
+254,41,2025-08-12T07:44:10+00:00,in_transit,Hub 15,46.326518,-3.955939,tms,"{""shipment_id"": 41, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2025-08-12T07:45:10+00:00
+255,41,2025-08-12T11:10:04+00:00,arrived_hub,Hub 14,38.490893,-7.231357,manual,"{""shipment_id"": 41, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-08-12T11:15:04+00:00
+256,41,2025-08-12T12:43:58+00:00,out_for_delivery,Frankfurt,36.785404,6.410827,manual,"{""shipment_id"": 41, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-08-12T12:44:58+00:00
+257,41,2025-08-12T16:13:52+00:00,delivered,Frankfurt,47.205066,-0.336342,tms,"{""shipment_id"": 41, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-08-12T16:20:52+00:00
+258,42,2026-03-16T16:30:03+00:00,created,Hub 23,39.092019,-2.426027,tms,"{""shipment_id"": 42, ""status"": ""created"", ""source_quality"": ""medium""}",2026-03-16T16:35:03+00:00
+259,42,2026-03-16T19:48:15+00:00,picked_up,Hub 21,43.439912,10.807212,mobile_app,"{""shipment_id"": 42, ""status"": ""picked_up"", ""source_quality"": ""high""}",2026-03-16T19:57:15+00:00
+260,42,2026-03-16T21:28:27+00:00,departed_warehouse,Hub 13,50.508038,5.032837,iot_gateway,"{""shipment_id"": 42, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2026-03-16T21:37:27+00:00
+261,42,2026-03-17T01:09:39+00:00,in_transit,Hub 21,46.28295,-7.438856,tms,"{""shipment_id"": 42, ""status"": ""in_transit"", ""source_quality"": ""high""}",2026-03-17T01:13:39+00:00
+262,42,2026-03-17T03:33:51+00:00,arrived_hub,Hub 16,37.603068,6.826097,manual,"{""shipment_id"": 42, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2026-03-17T03:38:51+00:00
+263,42,2026-03-17T06:14:03+00:00,out_for_delivery,Toulouse,46.077153,-1.081957,tms,"{""shipment_id"": 42, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2026-03-17T06:17:03+00:00
+264,42,2026-03-17T09:20:15+00:00,delivered,Toulouse,47.439912,-7.275971,tms,"{""shipment_id"": 42, ""status"": ""delivered"", ""source_quality"": ""low""}",2026-03-17T09:25:15+00:00
+265,43,2025-12-19T17:20:44+00:00,created,Hub 01,45.001211,2.21655,manual,"{""shipment_id"": 43, ""status"": ""created"", ""source_quality"": ""high""}",2025-12-19T17:26:44+00:00
+266,43,2025-12-19T19:04:56+00:00,picked_up,Hub 16,44.725705,-1.48401,iot_gateway,"{""shipment_id"": 43, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-12-19T19:05:56+00:00
+267,43,2025-12-19T21:11:08+00:00,departed_warehouse,Hub 16,44.112296,12.318994,mobile_app,"{""shipment_id"": 43, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-12-19T21:19:08+00:00
+268,43,2025-12-20T01:40:20+00:00,in_transit,Hub 12,52.016503,-7.77864,iot_gateway,"{""shipment_id"": 43, ""status"": ""in_transit"", ""source_quality"": ""high""}",2025-12-20T01:45:20+00:00
+269,43,2025-12-20T03:35:32+00:00,arrived_hub,Hub 13,38.342157,4.472181,mobile_app,"{""shipment_id"": 43, ""status"": ""arrived_hub"", ""source_quality"": ""high""}",2025-12-20T03:42:32+00:00
+270,43,2025-12-20T06:29:44+00:00,out_for_delivery,Toulouse,50.791973,-2.938258,manual,"{""shipment_id"": 43, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-12-20T06:34:44+00:00
+271,43,2025-12-20T10:49:56+00:00,delivered,Toulouse,42.85705,-8.910936,carrier_api,"{""shipment_id"": 43, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-12-20T10:57:56+00:00
+272,44,2025-10-25T18:14:20+00:00,created,Hub 16,38.769286,-0.963119,carrier_api,"{""shipment_id"": 44, ""status"": ""created"", ""source_quality"": ""medium""}",2025-10-25T18:16:20+00:00
+273,44,2025-10-25T19:02:56+00:00,picked_up,Hub 22,50.73367,5.754158,tms,"{""shipment_id"": 44, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-10-25T19:08:56+00:00
+274,44,2025-10-25T22:15:32+00:00,departed_warehouse,Hub 19,39.979038,-6.450169,manual,"{""shipment_id"": 44, ""status"": ""departed_warehouse"", ""source_quality"": ""high""}",2025-10-25T22:23:32+00:00
+275,44,2025-10-26T01:25:08+00:00,in_transit,Hub 07,44.505408,-1.512879,manual,"{""shipment_id"": 44, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2025-10-26T01:26:08+00:00
+276,44,2025-10-26T01:52:44+00:00,arrived_hub,Hub 19,52.01863,-6.967605,iot_gateway,"{""shipment_id"": 44, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-10-26T01:56:44+00:00
+277,44,2025-10-26T05:12:20+00:00,out_for_delivery,Lisbon,37.363423,5.275701,manual,"{""shipment_id"": 44, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-10-26T05:21:20+00:00
+278,44,2025-10-26T06:12:56+00:00,delivered,Lisbon,51.309844,-2.504401,iot_gateway,"{""shipment_id"": 44, ""status"": ""delivered"", ""source_quality"": ""low""}",2025-10-26T06:14:56+00:00
+279,45,2025-09-23T02:18:59+00:00,created,Hub 18,39.300335,-2.342375,iot_gateway,"{""shipment_id"": 45, ""status"": ""created"", ""source_quality"": ""low""}",2025-09-23T02:26:59+00:00
+280,45,2025-09-23T03:55:11+00:00,picked_up,Hub 16,37.472025,3.744356,manual,"{""shipment_id"": 45, ""status"": ""picked_up"", ""source_quality"": ""high""}",2025-09-23T04:03:11+00:00
+281,45,2025-09-23T06:33:23+00:00,departed_warehouse,Hub 12,52.071532,8.451323,mobile_app,"{""shipment_id"": 45, ""status"": ""departed_warehouse"", ""source_quality"": ""high""}",2025-09-23T06:39:23+00:00
+282,45,2025-09-23T10:39:35+00:00,in_transit,Hub 19,51.501252,-0.097259,mobile_app,"{""shipment_id"": 45, ""status"": ""in_transit"", ""source_quality"": ""high""}",2025-09-23T10:45:35+00:00
+283,45,2025-09-23T12:25:47+00:00,arrived_hub,Hub 06,38.626352,-0.746357,carrier_api,"{""shipment_id"": 45, ""status"": ""arrived_hub"", ""source_quality"": ""high""}",2025-09-23T12:29:47+00:00
+284,45,2025-09-23T14:51:59+00:00,out_for_delivery,Toulouse,51.202354,13.903792,tms,"{""shipment_id"": 45, ""status"": ""out_for_delivery"", ""source_quality"": ""high""}",2025-09-23T14:53:59+00:00
+285,45,2025-09-23T16:50:11+00:00,delivered,Toulouse,38.592759,3.763186,iot_gateway,"{""shipment_id"": 45, ""status"": ""delivered"", ""source_quality"": ""low""}",2025-09-23T16:55:11+00:00
+286,46,2026-01-03T03:22:50+00:00,created,Hub 11,49.854154,-3.381327,carrier_api,"{""shipment_id"": 46, ""status"": ""created"", ""source_quality"": ""high""}",2026-01-03T03:29:50+00:00
+287,46,2026-01-03T05:55:44+00:00,picked_up,Hub 06,51.800353,-1.028725,carrier_api,"{""shipment_id"": 46, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2026-01-03T06:01:44+00:00
+288,46,2026-01-03T09:18:38+00:00,departed_warehouse,Hub 02,48.321556,-5.330939,mobile_app,"{""shipment_id"": 46, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2026-01-03T09:20:38+00:00
+289,46,2026-01-03T12:13:32+00:00,in_transit,Hub 12,50.571264,-3.396093,carrier_api,"{""shipment_id"": 46, ""status"": ""in_transit"", ""source_quality"": ""high""}",2026-01-03T12:19:32+00:00
+290,46,2026-01-03T14:53:26+00:00,arrived_hub,Hub 20,37.866689,-3.712798,carrier_api,"{""shipment_id"": 46, ""status"": ""arrived_hub"", ""source_quality"": ""high""}",2026-01-03T15:00:26+00:00
+291,46,2026-01-03T19:05:20+00:00,out_for_delivery,Frankfurt,45.448317,11.03072,manual,"{""shipment_id"": 46, ""status"": ""out_for_delivery"", ""source_quality"": ""low""}",2026-01-03T19:11:20+00:00
+292,46,2026-01-03T21:57:14+00:00,delivered,Frankfurt,41.086588,12.029081,manual,"{""shipment_id"": 46, ""status"": ""delivered"", ""source_quality"": ""medium""}",2026-01-03T22:00:14+00:00
+293,47,2025-04-07T16:53:33+00:00,created,Hub 21,41.574219,-5.696193,tms,"{""shipment_id"": 47, ""status"": ""created"", ""source_quality"": ""medium""}",2025-04-07T16:57:33+00:00
+294,47,2025-04-07T20:16:27+00:00,picked_up,Hub 07,50.931064,5.30407,tms,"{""shipment_id"": 47, ""status"": ""picked_up"", ""source_quality"": ""low""}",2025-04-07T20:23:27+00:00
+295,47,2025-04-07T23:23:21+00:00,departed_warehouse,Hub 03,51.594553,5.026114,mobile_app,"{""shipment_id"": 47, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-04-07T23:31:21+00:00
+296,47,2025-04-08T01:06:15+00:00,in_transit,Hub 13,46.601761,-4.224662,mobile_app,"{""shipment_id"": 47, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2025-04-08T01:14:15+00:00
+297,47,2025-04-08T05:46:09+00:00,arrived_hub,Hub 18,36.055068,-2.8527,manual,"{""shipment_id"": 47, ""status"": ""arrived_hub"", ""source_quality"": ""high""}",2025-04-08T05:49:09+00:00
+298,47,2025-04-08T09:52:03+00:00,out_for_delivery,Frankfurt,37.937876,-5.15002,mobile_app,"{""shipment_id"": 47, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-04-08T09:57:03+00:00
+299,47,2025-04-08T11:05:57+00:00,delivered,Frankfurt,47.693753,-1.286897,mobile_app,"{""shipment_id"": 47, ""status"": ""delivered"", ""source_quality"": ""high""}",2025-04-08T11:14:57+00:00
+300,48,2025-02-24T08:58:56+00:00,created,Hub 13,51.424529,13.419795,mobile_app,"{""shipment_id"": 48, ""status"": ""created"", ""source_quality"": ""medium""}",2025-02-24T08:59:56+00:00
+301,48,2025-02-24T20:32:14+00:00,picked_up,Hub 23,41.059454,1.75426,carrier_api,"{""shipment_id"": 48, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-02-24T20:36:14+00:00
+302,48,2025-02-25T04:12:32+00:00,departed_warehouse,Hub 09,36.816875,7.797012,mobile_app,"{""shipment_id"": 48, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-02-25T04:20:32+00:00
+303,48,2025-02-25T14:51:50+00:00,in_transit,Hub 13,41.027575,-5.706455,carrier_api,"{""shipment_id"": 48, ""status"": ""in_transit"", ""source_quality"": ""high""}",2025-02-25T14:58:50+00:00
+304,48,2025-02-26T00:58:08+00:00,arrived_hub,Hub 10,45.967578,8.638295,tms,"{""shipment_id"": 48, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-02-26T01:00:08+00:00
+305,48,2025-02-26T10:31:26+00:00,out_for_delivery,Amsterdam,37.160529,-8.593644,mobile_app,"{""shipment_id"": 48, ""status"": ""out_for_delivery"", ""source_quality"": ""high""}",2025-02-26T10:35:26+00:00
+306,48,2025-02-26T20:27:44+00:00,delivered,Amsterdam,36.229665,6.514262,manual,"{""shipment_id"": 48, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-02-26T20:31:44+00:00
+307,49,2026-01-14T03:14:58+00:00,created,Hub 21,40.200979,-2.94273,mobile_app,"{""shipment_id"": 49, ""status"": ""created"", ""source_quality"": ""medium""}",2026-01-14T03:21:58+00:00
+308,49,2026-01-14T18:13:40+00:00,picked_up,Hub 13,38.330869,8.382409,tms,"{""shipment_id"": 49, ""status"": ""picked_up"", ""source_quality"": ""high""}",2026-01-14T18:21:40+00:00
+309,49,2026-01-15T09:25:22+00:00,departed_warehouse,Hub 13,38.739481,10.178791,carrier_api,"{""shipment_id"": 49, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2026-01-15T09:27:22+00:00
+310,49,2026-01-16T01:05:04+00:00,in_transit,Hub 08,41.067697,13.83237,iot_gateway,"{""shipment_id"": 49, ""status"": ""in_transit"", ""source_quality"": ""high""}",2026-01-16T01:13:04+00:00
+311,49,2026-01-16T15:59:46+00:00,arrived_hub,Hub 05,44.508341,9.585432,mobile_app,"{""shipment_id"": 49, ""status"": ""arrived_hub"", ""source_quality"": ""high""}",2026-01-16T16:04:46+00:00
+312,49,2026-01-17T07:01:28+00:00,out_for_delivery,Porto,49.425891,-7.783243,iot_gateway,"{""shipment_id"": 49, ""status"": ""out_for_delivery"", ""source_quality"": ""high""}",2026-01-17T07:06:28+00:00
+313,49,2026-01-17T21:11:10+00:00,delivered,Porto,45.141219,5.993052,mobile_app,"{""shipment_id"": 49, ""status"": ""delivered"", ""source_quality"": ""medium""}",2026-01-17T21:18:10+00:00
+314,50,2026-03-25T15:02:28+00:00,created,Hub 10,52.982151,6.956655,iot_gateway,"{""shipment_id"": 50, ""status"": ""created"", ""source_quality"": ""medium""}",2026-03-25T15:09:28+00:00
+315,50,2026-03-25T22:29:40+00:00,picked_up,Hub 14,40.559886,-6.140896,tms,"{""shipment_id"": 50, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2026-03-25T22:35:40+00:00
+316,50,2026-03-26T05:53:52+00:00,departed_warehouse,Hub 15,42.507797,2.133657,iot_gateway,"{""shipment_id"": 50, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2026-03-26T06:01:52+00:00
+317,50,2026-03-26T12:14:04+00:00,in_transit,Hub 11,41.45004,4.747241,tms,"{""shipment_id"": 50, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2026-03-26T12:19:04+00:00
+318,50,2026-03-26T18:09:16+00:00,arrived_hub,Hub 09,42.29963,-7.492362,mobile_app,"{""shipment_id"": 50, ""status"": ""arrived_hub"", ""source_quality"": ""high""}",2026-03-26T18:18:16+00:00
+319,50,2026-03-27T02:09:28+00:00,out_for_delivery,Braga,40.780733,-7.916477,carrier_api,"{""shipment_id"": 50, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2026-03-27T02:15:28+00:00
+320,50,2026-03-27T09:31:40+00:00,delivered,Braga,47.76046,8.315414,manual,"{""shipment_id"": 50, ""status"": ""delivered"", ""source_quality"": ""low""}",2026-03-27T09:33:40+00:00
+321,51,2026-04-23T17:27:50+00:00,created,Hub 19,45.673081,-2.786997,carrier_api,"{""shipment_id"": 51, ""status"": ""created"", ""source_quality"": ""low""}",2026-04-23T17:29:50+00:00
+322,51,2026-04-23T19:38:02+00:00,picked_up,Hub 19,40.063904,-3.607226,tms,"{""shipment_id"": 51, ""status"": ""picked_up"", ""source_quality"": ""high""}",2026-04-23T19:40:02+00:00
+323,51,2026-04-23T23:33:14+00:00,departed_warehouse,Hub 15,43.16726,-4.177293,tms,"{""shipment_id"": 51, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2026-04-23T23:39:14+00:00
+324,51,2026-04-24T04:15:26+00:00,in_transit,Hub 07,38.992471,2.571116,mobile_app,"{""shipment_id"": 51, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2026-04-24T04:23:26+00:00
+325,51,2026-04-24T04:16:38+00:00,arrived_hub,Hub 02,43.45654,-7.319635,mobile_app,"{""shipment_id"": 51, ""status"": ""arrived_hub"", ""source_quality"": ""low""}",2026-04-24T04:17:38+00:00
+326,51,2026-04-24T09:12:50+00:00,out_for_delivery,Toulouse,41.786007,7.465649,carrier_api,"{""shipment_id"": 51, ""status"": ""out_for_delivery"", ""source_quality"": ""high""}",2026-04-24T09:16:50+00:00
+327,51,2026-04-24T11:09:02+00:00,delivered,Toulouse,44.225078,4.161341,tms,"{""shipment_id"": 51, ""status"": ""delivered"", ""source_quality"": ""high""}",2026-04-24T11:10:02+00:00
+328,52,2026-04-20T19:03:12+00:00,created,Hub 23,44.07798,5.13192,carrier_api,"{""shipment_id"": 52, ""status"": ""created"", ""source_quality"": ""low""}",2026-04-20T19:04:12+00:00
+329,52,2026-04-21T06:26:48+00:00,cancelled,Hub 07,48.461708,-3.615712,iot_gateway,"{""shipment_id"": 52, ""status"": ""cancelled"", ""source_quality"": ""high""}",2026-04-21T06:30:48+00:00
+330,53,2025-04-29T14:54:07+00:00,created,Hub 16,42.171277,13.682875,carrier_api,"{""shipment_id"": 53, ""status"": ""created"", ""source_quality"": ""medium""}",2025-04-29T15:01:07+00:00
+331,53,2025-04-29T18:14:01+00:00,picked_up,Hub 20,37.324618,-4.055443,tms,"{""shipment_id"": 53, ""status"": ""picked_up"", ""source_quality"": ""high""}",2025-04-29T18:23:01+00:00
+332,53,2025-04-29T21:17:55+00:00,departed_warehouse,Hub 23,51.886363,0.353273,manual,"{""shipment_id"": 53, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-04-29T21:24:55+00:00
+333,53,2025-04-29T23:16:49+00:00,in_transit,Hub 04,37.826475,10.867029,manual,"{""shipment_id"": 53, ""status"": ""in_transit"", ""source_quality"": ""high""}",2025-04-29T23:20:49+00:00
+334,53,2025-04-30T01:46:43+00:00,arrived_hub,Hub 10,51.44046,11.999632,mobile_app,"{""shipment_id"": 53, ""status"": ""arrived_hub"", ""source_quality"": ""high""}",2025-04-30T01:48:43+00:00
+335,53,2025-04-30T05:40:37+00:00,out_for_delivery,Frankfurt,43.469655,-7.408774,carrier_api,"{""shipment_id"": 53, ""status"": ""out_for_delivery"", ""source_quality"": ""high""}",2025-04-30T05:44:37+00:00
+336,53,2025-04-30T08:05:31+00:00,delivered,Frankfurt,44.066821,12.471025,tms,"{""shipment_id"": 53, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-04-30T08:07:31+00:00
+337,54,2025-06-30T20:14:12+00:00,created,Hub 09,39.580093,14.258453,mobile_app,"{""shipment_id"": 54, ""status"": ""created"", ""source_quality"": ""high""}",2025-06-30T20:21:12+00:00
+338,54,2025-07-01T13:00:24+00:00,cancelled,Hub 02,50.982722,-5.881787,carrier_api,"{""shipment_id"": 54, ""status"": ""cancelled"", ""source_quality"": ""medium""}",2025-07-01T13:08:24+00:00
+339,55,2025-02-14T18:52:31+00:00,created,Hub 09,50.349255,2.726831,tms,"{""shipment_id"": 55, ""status"": ""created"", ""source_quality"": ""high""}",2025-02-14T18:55:31+00:00
+340,55,2025-02-14T20:22:13+00:00,picked_up,Hub 11,40.69703,3.749544,mobile_app,"{""shipment_id"": 55, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-02-14T20:23:13+00:00
+341,55,2025-02-14T22:22:55+00:00,departed_warehouse,Hub 04,42.082584,8.641105,carrier_api,"{""shipment_id"": 55, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-02-14T22:26:55+00:00
+342,55,2025-02-14T23:49:37+00:00,in_transit,Hub 20,40.635063,-6.051043,carrier_api,"{""shipment_id"": 55, ""status"": ""in_transit"", ""source_quality"": ""high""}",2025-02-14T23:57:37+00:00
+343,55,2025-02-15T01:35:19+00:00,arrived_hub,Hub 02,51.232618,-3.051188,iot_gateway,"{""shipment_id"": 55, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-02-15T01:38:19+00:00
+344,55,2025-02-15T02:12:01+00:00,out_for_delivery,Rotterdam,42.914376,-5.921405,tms,"{""shipment_id"": 55, ""status"": ""out_for_delivery"", ""source_quality"": ""low""}",2025-02-15T02:21:01+00:00
+345,55,2025-02-15T03:55:43+00:00,delivered,Rotterdam,36.449418,7.730878,iot_gateway,"{""shipment_id"": 55, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-02-15T04:00:43+00:00
+346,56,2025-01-06T12:22:20+00:00,created,Hub 16,38.902234,3.652367,iot_gateway,"{""shipment_id"": 56, ""status"": ""created"", ""source_quality"": ""high""}",2025-01-06T12:26:20+00:00
+347,56,2025-01-06T15:13:26+00:00,picked_up,Hub 16,39.128932,-5.560552,mobile_app,"{""shipment_id"": 56, ""status"": ""picked_up"", ""source_quality"": ""low""}",2025-01-06T15:17:26+00:00
+348,56,2025-01-06T18:42:32+00:00,departed_warehouse,Hub 13,50.582604,7.958169,iot_gateway,"{""shipment_id"": 56, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-01-06T18:51:32+00:00
+349,56,2025-01-06T19:00:38+00:00,in_transit,Hub 09,50.258294,7.38603,iot_gateway,"{""shipment_id"": 56, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2025-01-06T19:04:38+00:00
+350,56,2025-01-06T23:19:44+00:00,arrived_hub,Hub 21,40.783206,0.722038,manual,"{""shipment_id"": 56, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-01-06T23:25:44+00:00
+351,56,2025-01-07T00:14:50+00:00,out_for_delivery,Hamburg,51.535072,-3.501679,iot_gateway,"{""shipment_id"": 56, ""status"": ""out_for_delivery"", ""source_quality"": ""low""}",2025-01-07T00:15:50+00:00
+352,56,2025-01-07T04:24:56+00:00,delivered,Hamburg,42.840622,11.225696,iot_gateway,"{""shipment_id"": 56, ""status"": ""delivered"", ""source_quality"": ""low""}",2025-01-07T04:25:56+00:00
+353,57,2025-11-12T13:59:06+00:00,created,Hub 22,40.817341,-6.060417,tms,"{""shipment_id"": 57, ""status"": ""created"", ""source_quality"": ""medium""}",2025-11-12T14:06:06+00:00
+354,57,2025-11-12T17:46:06+00:00,picked_up,Hub 19,40.052474,8.632228,iot_gateway,"{""shipment_id"": 57, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-11-12T17:55:06+00:00
+355,57,2025-11-12T19:03:06+00:00,departed_warehouse,Hub 14,50.780142,11.439114,carrier_api,"{""shipment_id"": 57, ""status"": ""departed_warehouse"", ""source_quality"": ""low""}",2025-11-12T19:04:06+00:00
+356,57,2025-11-12T21:15:06+00:00,in_transit,Hub 14,37.463422,1.344432,mobile_app,"{""shipment_id"": 57, ""status"": ""in_transit"", ""source_quality"": ""low""}",2025-11-12T21:18:06+00:00
+357,57,2025-11-13T00:40:06+00:00,arrived_hub,Hub 11,42.225262,-6.968694,mobile_app,"{""shipment_id"": 57, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-11-13T00:44:06+00:00
+358,57,2025-11-13T02:37:06+00:00,out_for_delivery,Frankfurt,36.049773,14.667367,tms,"{""shipment_id"": 57, ""status"": ""out_for_delivery"", ""source_quality"": ""high""}",2025-11-13T02:46:06+00:00
+359,57,2025-11-13T06:47:06+00:00,delivered,Frankfurt,36.041954,-6.2167,iot_gateway,"{""shipment_id"": 57, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-11-13T06:56:06+00:00
+360,58,2025-08-27T13:29:27+00:00,created,Hub 13,51.588559,12.845742,tms,"{""shipment_id"": 58, ""status"": ""created"", ""source_quality"": ""medium""}",2025-08-27T13:33:27+00:00
+361,58,2025-08-27T15:24:09+00:00,picked_up,Hub 07,49.925961,-1.232823,manual,"{""shipment_id"": 58, ""status"": ""picked_up"", ""source_quality"": ""low""}",2025-08-27T15:32:09+00:00
+362,58,2025-08-27T16:41:51+00:00,departed_warehouse,Hub 15,50.146152,-7.167877,mobile_app,"{""shipment_id"": 58, ""status"": ""departed_warehouse"", ""source_quality"": ""high""}",2025-08-27T16:42:51+00:00
+363,58,2025-08-27T16:33:33+00:00,in_transit,Hub 19,38.600132,6.733965,manual,"{""shipment_id"": 58, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2025-08-27T16:38:33+00:00
+364,58,2025-08-27T18:50:15+00:00,arrived_hub,Hub 12,50.018793,11.292461,manual,"{""shipment_id"": 58, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-08-27T18:51:15+00:00
+365,58,2025-08-27T20:43:57+00:00,out_for_delivery,Rotterdam,38.085312,-2.871956,manual,"{""shipment_id"": 58, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-08-27T20:45:57+00:00
+366,58,2025-08-27T21:18:39+00:00,delivered,Rotterdam,39.259039,9.963873,tms,"{""shipment_id"": 58, ""status"": ""delivered"", ""source_quality"": ""high""}",2025-08-27T21:24:39+00:00
+367,59,2025-12-25T22:26:52+00:00,created,Hub 22,36.766784,10.396186,carrier_api,"{""shipment_id"": 59, ""status"": ""created"", ""source_quality"": ""low""}",2025-12-25T22:28:52+00:00
+368,59,2025-12-25T23:38:28+00:00,picked_up,Hub 20,36.591741,5.354526,tms,"{""shipment_id"": 59, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-12-25T23:41:28+00:00
+369,59,2025-12-26T02:31:04+00:00,departed_warehouse,Hub 15,46.150957,-5.857422,mobile_app,"{""shipment_id"": 59, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-12-26T02:37:04+00:00
+370,59,2025-12-26T04:43:40+00:00,in_transit,Hub 19,40.567924,13.248882,mobile_app,"{""shipment_id"": 59, ""status"": ""in_transit"", ""source_quality"": ""high""}",2025-12-26T04:49:40+00:00
+371,59,2025-12-26T05:49:16+00:00,arrived_hub,Hub 11,40.041864,-0.933529,mobile_app,"{""shipment_id"": 59, ""status"": ""arrived_hub"", ""source_quality"": ""low""}",2025-12-26T05:54:16+00:00
+372,59,2025-12-26T07:14:52+00:00,out_for_delivery,Lisbon,36.569869,-5.984078,tms,"{""shipment_id"": 59, ""status"": ""out_for_delivery"", ""source_quality"": ""high""}",2025-12-26T07:20:52+00:00
+373,59,2025-12-26T09:36:28+00:00,delivered,Lisbon,49.644302,-2.538282,manual,"{""shipment_id"": 59, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-12-26T09:37:28+00:00
+374,60,2026-03-31T20:32:26+00:00,created,Hub 06,45.521182,2.173414,tms,"{""shipment_id"": 60, ""status"": ""created"", ""source_quality"": ""medium""}",2026-03-31T20:37:26+00:00
+375,60,2026-03-31T21:56:08+00:00,picked_up,Hub 12,47.000388,-4.254658,tms,"{""shipment_id"": 60, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2026-03-31T22:05:08+00:00
+376,60,2026-03-31T21:44:50+00:00,departed_warehouse,Hub 05,41.375012,13.379455,carrier_api,"{""shipment_id"": 60, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2026-03-31T21:53:50+00:00
+377,60,2026-04-01T00:58:32+00:00,in_transit,Hub 06,46.90069,0.100141,carrier_api,"{""shipment_id"": 60, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2026-04-01T01:03:32+00:00
+378,60,2026-04-01T01:18:14+00:00,arrived_hub,Hub 13,50.920648,7.602431,tms,"{""shipment_id"": 60, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2026-04-01T01:26:14+00:00
+379,60,2026-04-01T02:49:56+00:00,out_for_delivery,Rotterdam,40.78451,-5.744841,tms,"{""shipment_id"": 60, ""status"": ""out_for_delivery"", ""source_quality"": ""low""}",2026-04-01T02:52:56+00:00
+380,60,2026-04-01T03:00:38+00:00,delivered,Rotterdam,40.498075,-1.943371,tms,"{""shipment_id"": 60, ""status"": ""delivered"", ""source_quality"": ""medium""}",2026-04-01T03:03:38+00:00
+381,61,2025-11-20T01:07:22+00:00,created,Hub 18,36.845957,-4.476923,manual,"{""shipment_id"": 61, ""status"": ""created"", ""source_quality"": ""low""}",2025-11-20T01:10:22+00:00
+382,61,2025-11-20T02:55:34+00:00,picked_up,Hub 07,44.805671,-2.04398,tms,"{""shipment_id"": 61, ""status"": ""picked_up"", ""source_quality"": ""low""}",2025-11-20T03:04:34+00:00
+383,61,2025-11-20T06:51:46+00:00,departed_warehouse,Hub 22,39.197118,3.93765,iot_gateway,"{""shipment_id"": 61, ""status"": ""departed_warehouse"", ""source_quality"": ""high""}",2025-11-20T06:54:46+00:00
+384,61,2025-11-20T08:07:58+00:00,in_transit,Hub 24,39.962936,4.561235,tms,"{""shipment_id"": 61, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2025-11-20T08:11:58+00:00
+385,61,2025-11-20T11:16:10+00:00,arrived_hub,Hub 19,41.580942,9.594475,manual,"{""shipment_id"": 61, ""status"": ""arrived_hub"", ""source_quality"": ""high""}",2025-11-20T11:20:10+00:00
+386,61,2025-11-20T13:29:22+00:00,out_for_delivery,Porto,39.599076,-8.858253,iot_gateway,"{""shipment_id"": 61, ""status"": ""out_for_delivery"", ""source_quality"": ""high""}",2025-11-20T13:30:22+00:00
+387,61,2025-11-20T16:09:34+00:00,delivered,Porto,52.666523,6.147847,tms,"{""shipment_id"": 61, ""status"": ""delivered"", ""source_quality"": ""high""}",2025-11-20T16:13:34+00:00
+388,62,2025-09-17T22:36:42+00:00,created,Hub 11,51.057802,8.107892,mobile_app,"{""shipment_id"": 62, ""status"": ""created"", ""source_quality"": ""medium""}",2025-09-17T22:40:42+00:00
+389,62,2025-09-21T17:24:54+00:00,cancelled,Hub 21,41.35795,-0.52445,tms,"{""shipment_id"": 62, ""status"": ""cancelled"", ""source_quality"": ""medium""}",2025-09-21T17:28:54+00:00
+390,63,2026-04-03T18:43:29+00:00,created,Hub 12,45.180548,-7.412814,carrier_api,"{""shipment_id"": 63, ""status"": ""created"", ""source_quality"": ""high""}",2026-04-03T18:48:29+00:00
+391,63,2026-04-03T21:32:41+00:00,picked_up,Hub 07,52.585496,-5.084611,tms,"{""shipment_id"": 63, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2026-04-03T21:33:41+00:00
+392,63,2026-04-03T22:25:53+00:00,departed_warehouse,Hub 14,50.904026,-3.282919,carrier_api,"{""shipment_id"": 63, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2026-04-03T22:29:53+00:00
+393,63,2026-04-04T02:27:05+00:00,in_transit,Hub 22,51.024891,-2.085657,manual,"{""shipment_id"": 63, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2026-04-04T02:31:05+00:00
+394,63,2026-04-04T04:23:17+00:00,arrived_hub,Hub 19,39.866102,11.13791,iot_gateway,"{""shipment_id"": 63, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2026-04-04T04:29:17+00:00
+395,63,2026-04-04T05:44:29+00:00,out_for_delivery,Porto,41.338578,-0.932418,iot_gateway,"{""shipment_id"": 63, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2026-04-04T05:53:29+00:00
+396,63,2026-04-04T09:24:41+00:00,delivered,Porto,51.821978,0.519107,iot_gateway,"{""shipment_id"": 63, ""status"": ""delivered"", ""source_quality"": ""low""}",2026-04-04T09:27:41+00:00
+397,64,2025-08-30T17:30:44+00:00,created,Hub 11,37.744742,7.615574,tms,"{""shipment_id"": 64, ""status"": ""created"", ""source_quality"": ""low""}",2025-08-30T17:34:44+00:00
+398,64,2025-08-31T01:05:56+00:00,picked_up,Hub 21,47.65613,-0.538469,mobile_app,"{""shipment_id"": 64, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-08-31T01:10:56+00:00
+399,64,2025-08-31T07:01:08+00:00,departed_warehouse,Hub 02,44.34321,11.246715,carrier_api,"{""shipment_id"": 64, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-08-31T07:02:08+00:00
+400,64,2025-08-31T13:55:20+00:00,in_transit,Hub 16,50.316692,1.734255,tms,"{""shipment_id"": 64, ""status"": ""in_transit"", ""source_quality"": ""low""}",2025-08-31T13:56:20+00:00
+401,64,2025-08-31T21:43:32+00:00,arrived_hub,Hub 14,50.455082,4.147192,carrier_api,"{""shipment_id"": 64, ""status"": ""arrived_hub"", ""source_quality"": ""low""}",2025-08-31T21:51:32+00:00
+402,64,2025-09-01T04:43:44+00:00,out_for_delivery,Braga,45.863002,13.736928,manual,"{""shipment_id"": 64, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-09-01T04:47:44+00:00
+403,64,2025-09-01T11:53:56+00:00,delivered,Braga,42.88429,7.978849,iot_gateway,"{""shipment_id"": 64, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-09-01T11:58:56+00:00
+404,65,2025-04-23T21:18:13+00:00,created,Hub 15,45.646657,12.945798,manual,"{""shipment_id"": 65, ""status"": ""created"", ""source_quality"": ""medium""}",2025-04-23T21:22:13+00:00
+405,65,2025-04-24T01:17:25+00:00,picked_up,Hub 20,36.262451,6.230816,tms,"{""shipment_id"": 65, ""status"": ""picked_up"", ""source_quality"": ""low""}",2025-04-24T01:25:25+00:00
+406,65,2025-04-24T01:23:37+00:00,departed_warehouse,Hub 02,48.646037,-3.094865,carrier_api,"{""shipment_id"": 65, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-04-24T01:29:37+00:00
+407,65,2025-04-24T04:41:49+00:00,in_transit,Hub 03,42.229545,2.563301,manual,"{""shipment_id"": 65, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2025-04-24T04:46:49+00:00
+408,65,2025-04-24T08:40:01+00:00,arrived_hub,Hub 15,52.397414,12.115564,mobile_app,"{""shipment_id"": 65, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-04-24T08:45:01+00:00
+409,65,2025-04-24T08:35:13+00:00,out_for_delivery,Porto,52.123539,-0.309064,carrier_api,"{""shipment_id"": 65, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-04-24T08:43:13+00:00
+410,65,2025-04-24T11:27:25+00:00,delivered,Porto,37.434179,13.150921,manual,"{""shipment_id"": 65, ""status"": ""delivered"", ""source_quality"": ""low""}",2025-04-24T11:32:25+00:00
+411,66,2026-03-02T16:20:51+00:00,created,Hub 11,37.531772,5.456027,iot_gateway,"{""shipment_id"": 66, ""status"": ""created"", ""source_quality"": ""low""}",2026-03-02T16:24:51+00:00
+412,66,2026-03-02T15:16:03+00:00,picked_up,Hub 02,40.988325,-6.217325,manual,"{""shipment_id"": 66, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2026-03-02T15:24:03+00:00
+413,66,2026-03-02T19:17:15+00:00,departed_warehouse,Hub 12,40.027153,9.603428,carrier_api,"{""shipment_id"": 66, ""status"": ""departed_warehouse"", ""source_quality"": ""low""}",2026-03-02T19:23:15+00:00
+414,66,2026-03-02T19:44:27+00:00,in_transit,Hub 13,50.329218,9.866387,iot_gateway,"{""shipment_id"": 66, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2026-03-02T19:47:27+00:00
+415,66,2026-03-02T23:53:39+00:00,arrived_hub,Hub 16,46.683194,4.989759,carrier_api,"{""shipment_id"": 66, ""status"": ""arrived_hub"", ""source_quality"": ""low""}",2026-03-02T23:59:39+00:00
+416,66,2026-03-03T01:22:51+00:00,out_for_delivery,Porto,41.184478,-6.096612,iot_gateway,"{""shipment_id"": 66, ""status"": ""out_for_delivery"", ""source_quality"": ""low""}",2026-03-03T01:29:51+00:00
+417,66,2026-03-03T04:47:03+00:00,delivered,Porto,36.968144,-8.444914,carrier_api,"{""shipment_id"": 66, ""status"": ""delivered"", ""source_quality"": ""medium""}",2026-03-03T04:51:03+00:00
+418,67,2025-02-04T16:11:48+00:00,created,Hub 20,36.859509,-4.910982,carrier_api,"{""shipment_id"": 67, ""status"": ""created"", ""source_quality"": ""high""}",2025-02-04T16:19:48+00:00
+419,67,2025-02-05T01:13:48+00:00,picked_up,Hub 14,43.447236,11.35389,carrier_api,"{""shipment_id"": 67, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-02-05T01:22:48+00:00
+420,67,2025-02-05T07:43:48+00:00,departed_warehouse,Hub 03,40.576356,7.195373,tms,"{""shipment_id"": 67, ""status"": ""departed_warehouse"", ""source_quality"": ""low""}",2025-02-05T07:50:48+00:00
+421,67,2025-02-05T15:18:48+00:00,in_transit,Hub 22,47.199596,11.626935,iot_gateway,"{""shipment_id"": 67, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2025-02-05T15:19:48+00:00
+422,67,2025-02-05T22:34:48+00:00,arrived_hub,Hub 23,44.859183,5.75293,tms,"{""shipment_id"": 67, ""status"": ""arrived_hub"", ""source_quality"": ""high""}",2025-02-05T22:39:48+00:00
+423,67,2025-02-06T05:56:48+00:00,out_for_delivery,Madrid,43.885416,-4.975181,manual,"{""shipment_id"": 67, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-02-06T05:58:48+00:00
+424,67,2025-02-06T12:59:48+00:00,delivered,Madrid,42.120597,8.021816,manual,"{""shipment_id"": 67, ""status"": ""delivered"", ""source_quality"": ""high""}",2025-02-06T13:08:48+00:00
+425,68,2025-12-02T16:28:59+00:00,created,Hub 13,39.138081,9.495285,tms,"{""shipment_id"": 68, ""status"": ""created"", ""source_quality"": ""medium""}",2025-12-02T16:30:59+00:00
+426,68,2025-12-02T18:37:35+00:00,picked_up,Hub 04,50.928683,-2.656166,manual,"{""shipment_id"": 68, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-12-02T18:40:35+00:00
+427,68,2025-12-02T19:37:11+00:00,departed_warehouse,Hub 18,43.263567,-2.183311,tms,"{""shipment_id"": 68, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-12-02T19:42:11+00:00
+428,68,2025-12-02T21:06:47+00:00,in_transit,Hub 21,40.00447,-1.052348,manual,"{""shipment_id"": 68, ""status"": ""in_transit"", ""source_quality"": ""low""}",2025-12-02T21:10:47+00:00
+429,68,2025-12-03T00:32:23+00:00,arrived_hub,Hub 02,37.149581,3.676215,manual,"{""shipment_id"": 68, ""status"": ""arrived_hub"", ""source_quality"": ""high""}",2025-12-03T00:37:23+00:00
+430,68,2025-12-03T01:25:59+00:00,out_for_delivery,Lisbon,41.710444,13.950312,carrier_api,"{""shipment_id"": 68, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-12-03T01:27:59+00:00
+431,68,2025-12-03T05:53:35+00:00,delivered,Lisbon,47.040873,1.267073,carrier_api,"{""shipment_id"": 68, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-12-03T05:54:35+00:00
+432,69,2026-02-16T21:29:53+00:00,created,Hub 18,37.155981,-7.573301,iot_gateway,"{""shipment_id"": 69, ""status"": ""created"", ""source_quality"": ""medium""}",2026-02-16T21:37:53+00:00
+433,69,2026-02-16T23:55:05+00:00,picked_up,Hub 04,40.075342,6.495766,carrier_api,"{""shipment_id"": 69, ""status"": ""picked_up"", ""source_quality"": ""low""}",2026-02-16T23:59:05+00:00
+434,69,2026-02-17T01:48:17+00:00,departed_warehouse,Hub 24,41.9414,-8.349519,carrier_api,"{""shipment_id"": 69, ""status"": ""departed_warehouse"", ""source_quality"": ""low""}",2026-02-17T01:53:17+00:00
+435,69,2026-02-17T04:54:29+00:00,in_transit,Hub 15,52.734337,-5.610019,carrier_api,"{""shipment_id"": 69, ""status"": ""in_transit"", ""source_quality"": ""high""}",2026-02-17T04:57:29+00:00
+436,69,2026-02-17T05:44:41+00:00,arrived_hub,Hub 17,50.229102,-5.945978,tms,"{""shipment_id"": 69, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2026-02-17T05:49:41+00:00
+437,69,2026-02-17T09:19:53+00:00,out_for_delivery,Porto,40.143611,-4.226136,manual,"{""shipment_id"": 69, ""status"": ""out_for_delivery"", ""source_quality"": ""high""}",2026-02-17T09:28:53+00:00
+438,69,2026-02-17T10:49:05+00:00,delivered,Porto,41.214979,4.57588,manual,"{""shipment_id"": 69, ""status"": ""delivered"", ""source_quality"": ""medium""}",2026-02-17T10:55:05+00:00
+439,70,2025-02-02T10:31:30+00:00,created,Hub 12,51.431702,-4.803977,manual,"{""shipment_id"": 70, ""status"": ""created"", ""source_quality"": ""medium""}",2025-02-02T10:40:30+00:00
+440,70,2025-02-02T18:37:30+00:00,picked_up,Hub 06,37.203979,6.549251,carrier_api,"{""shipment_id"": 70, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-02-02T18:38:30+00:00
+441,70,2025-02-03T05:19:30+00:00,departed_warehouse,Hub 15,36.07321,1.565649,tms,"{""shipment_id"": 70, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-02-03T05:20:30+00:00
+442,70,2025-02-03T08:27:30+00:00,in_transit,Hub 03,51.584586,11.700618,iot_gateway,"{""shipment_id"": 70, ""status"": ""in_transit"", ""source_quality"": ""low""}",2025-02-03T08:28:30+00:00
+443,70,2025-02-03T17:56:30+00:00,arrived_hub,Hub 23,48.72779,1.023056,carrier_api,"{""shipment_id"": 70, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-02-03T17:58:30+00:00
+444,70,2025-02-03T23:34:30+00:00,out_for_delivery,Madrid,51.991795,-5.062832,manual,"{""shipment_id"": 70, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-02-03T23:42:30+00:00
+445,70,2025-02-04T08:14:30+00:00,delivered,Madrid,50.705723,6.464768,tms,"{""shipment_id"": 70, ""status"": ""delivered"", ""source_quality"": ""low""}",2025-02-04T08:16:30+00:00
+446,71,2025-04-18T01:11:40+00:00,created,Hub 13,39.996677,1.593355,carrier_api,"{""shipment_id"": 71, ""status"": ""created"", ""source_quality"": ""medium""}",2025-04-18T01:18:40+00:00
+447,71,2025-04-18T17:17:22+00:00,picked_up,Hub 04,41.895891,-0.93261,iot_gateway,"{""shipment_id"": 71, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-04-18T17:22:22+00:00
+448,71,2025-04-19T08:14:04+00:00,departed_warehouse,Hub 05,43.017663,-2.372372,carrier_api,"{""shipment_id"": 71, ""status"": ""departed_warehouse"", ""source_quality"": ""low""}",2025-04-19T08:20:04+00:00
+449,71,2025-04-19T22:43:46+00:00,in_transit,Hub 13,49.046926,-1.035439,manual,"{""shipment_id"": 71, ""status"": ""in_transit"", ""source_quality"": ""low""}",2025-04-19T22:45:46+00:00
+450,71,2025-04-20T12:41:28+00:00,arrived_hub,Hub 06,43.230985,12.960542,iot_gateway,"{""shipment_id"": 71, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-04-20T12:45:28+00:00
+451,71,2025-04-21T03:35:10+00:00,out_for_delivery,Porto,45.796473,-0.061322,iot_gateway,"{""shipment_id"": 71, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-04-21T03:44:10+00:00
+452,71,2025-04-21T20:13:52+00:00,delivered,Porto,52.682043,11.377976,manual,"{""shipment_id"": 71, ""status"": ""delivered"", ""source_quality"": ""low""}",2025-04-21T20:16:52+00:00
+453,72,2026-02-11T02:07:51+00:00,created,Hub 20,43.362942,10.784813,manual,"{""shipment_id"": 72, ""status"": ""created"", ""source_quality"": ""medium""}",2026-02-11T02:11:51+00:00
+454,72,2026-02-11T05:15:57+00:00,picked_up,Hub 14,47.093152,-6.785601,mobile_app,"{""shipment_id"": 72, ""status"": ""picked_up"", ""source_quality"": ""low""}",2026-02-11T05:17:57+00:00
+455,72,2026-02-11T07:48:03+00:00,departed_warehouse,Hub 06,42.037001,12.80076,iot_gateway,"{""shipment_id"": 72, ""status"": ""departed_warehouse"", ""source_quality"": ""high""}",2026-02-11T07:52:03+00:00
+456,72,2026-02-11T10:41:09+00:00,in_transit,Hub 23,43.113695,-3.711412,manual,"{""shipment_id"": 72, ""status"": ""in_transit"", ""source_quality"": ""high""}",2026-02-11T10:43:09+00:00
+457,72,2026-02-11T12:31:15+00:00,arrived_hub,Hub 18,40.673788,11.60499,manual,"{""shipment_id"": 72, ""status"": ""arrived_hub"", ""source_quality"": ""low""}",2026-02-11T12:38:15+00:00
+458,72,2026-02-11T16:11:21+00:00,out_for_delivery,Hamburg,41.03644,13.202761,carrier_api,"{""shipment_id"": 72, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2026-02-11T16:14:21+00:00
+459,72,2026-02-11T19:46:27+00:00,delivered,Hamburg,45.426502,7.100069,iot_gateway,"{""shipment_id"": 72, ""status"": ""delivered"", ""source_quality"": ""high""}",2026-02-11T19:49:27+00:00
+460,73,2025-11-12T04:01:59+00:00,created,Hub 23,48.299293,5.406427,tms,"{""shipment_id"": 73, ""status"": ""created"", ""source_quality"": ""medium""}",2025-11-12T04:05:59+00:00
+461,73,2025-11-12T10:03:11+00:00,picked_up,Hub 10,41.049173,12.888405,manual,"{""shipment_id"": 73, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-11-12T10:07:11+00:00
+462,73,2025-11-12T18:42:23+00:00,departed_warehouse,Hub 08,38.62161,9.483332,manual,"{""shipment_id"": 73, ""status"": ""departed_warehouse"", ""source_quality"": ""high""}",2025-11-12T18:45:23+00:00
+463,73,2025-11-13T02:53:35+00:00,in_transit,Hub 12,47.882556,-2.197281,mobile_app,"{""shipment_id"": 73, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2025-11-13T02:58:35+00:00
+464,73,2025-11-13T08:36:47+00:00,arrived_hub,Hub 04,41.807351,-0.098783,carrier_api,"{""shipment_id"": 73, ""status"": ""arrived_hub"", ""source_quality"": ""low""}",2025-11-13T08:42:47+00:00
+465,73,2025-11-13T16:01:59+00:00,out_for_delivery,Braga,39.569229,-2.720627,manual,"{""shipment_id"": 73, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-11-13T16:08:59+00:00
+466,73,2025-11-13T22:52:11+00:00,delivered,Braga,43.522286,-0.822833,iot_gateway,"{""shipment_id"": 73, ""status"": ""delivered"", ""source_quality"": ""low""}",2025-11-13T23:00:11+00:00
+467,74,2025-10-29T02:15:02+00:00,created,Hub 21,43.737516,-1.475461,manual,"{""shipment_id"": 74, ""status"": ""created"", ""source_quality"": ""high""}",2025-10-29T02:21:02+00:00
+468,74,2025-10-29T08:35:02+00:00,picked_up,Hub 03,47.806123,10.310603,iot_gateway,"{""shipment_id"": 74, ""status"": ""picked_up"", ""source_quality"": ""high""}",2025-10-29T08:41:02+00:00
+469,74,2025-10-29T14:29:02+00:00,departed_warehouse,Hub 12,47.30333,-1.266684,tms,"{""shipment_id"": 74, ""status"": ""departed_warehouse"", ""source_quality"": ""high""}",2025-10-29T14:37:02+00:00
+470,74,2025-10-30T01:00:02+00:00,in_transit,Hub 05,47.394012,13.548,carrier_api,"{""shipment_id"": 74, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2025-10-30T01:02:02+00:00
+471,74,2025-10-30T07:26:02+00:00,arrived_hub,Hub 12,47.412978,12.463883,tms,"{""shipment_id"": 74, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-10-30T07:34:02+00:00
+472,74,2025-10-30T13:39:02+00:00,out_for_delivery,Madrid,38.87201,13.911079,carrier_api,"{""shipment_id"": 74, ""status"": ""out_for_delivery"", ""source_quality"": ""high""}",2025-10-30T13:41:02+00:00
+473,74,2025-10-30T23:07:02+00:00,delivered,Madrid,52.982447,9.571285,iot_gateway,"{""shipment_id"": 74, ""status"": ""delivered"", ""source_quality"": ""low""}",2025-10-30T23:13:02+00:00
+474,75,2025-11-21T17:25:47+00:00,created,Hub 18,51.278517,9.080108,mobile_app,"{""shipment_id"": 75, ""status"": ""created"", ""source_quality"": ""high""}",2025-11-21T17:27:47+00:00
+475,75,2025-11-21T20:49:23+00:00,picked_up,Hub 14,45.233729,7.002387,iot_gateway,"{""shipment_id"": 75, ""status"": ""picked_up"", ""source_quality"": ""high""}",2025-11-21T20:58:23+00:00
+476,75,2025-11-21T22:46:59+00:00,departed_warehouse,Hub 04,45.722731,-1.618069,manual,"{""shipment_id"": 75, ""status"": ""departed_warehouse"", ""source_quality"": ""low""}",2025-11-21T22:54:59+00:00
+477,75,2025-11-22T00:18:35+00:00,in_transit,Hub 24,49.139489,11.608669,iot_gateway,"{""shipment_id"": 75, ""status"": ""in_transit"", ""source_quality"": ""high""}",2025-11-22T00:24:35+00:00
+478,75,2025-11-22T01:40:11+00:00,arrived_hub,Hub 05,39.335887,4.054154,carrier_api,"{""shipment_id"": 75, ""status"": ""arrived_hub"", ""source_quality"": ""low""}",2025-11-22T01:41:11+00:00
+479,75,2025-11-22T03:49:47+00:00,out_for_delivery,Lisbon,43.425715,-5.183015,iot_gateway,"{""shipment_id"": 75, ""status"": ""out_for_delivery"", ""source_quality"": ""low""}",2025-11-22T03:57:47+00:00
+480,75,2025-11-22T05:35:23+00:00,delivered,Lisbon,40.96644,0.365926,iot_gateway,"{""shipment_id"": 75, ""status"": ""delivered"", ""source_quality"": ""low""}",2025-11-22T05:44:23+00:00
+481,76,2026-03-05T12:44:00+00:00,created,Hub 20,43.13514,-7.555894,carrier_api,"{""shipment_id"": 76, ""status"": ""created"", ""source_quality"": ""medium""}",2026-03-05T12:47:00+00:00
+482,76,2026-03-08T02:09:48+00:00,cancelled,Hub 18,47.481068,2.442088,manual,"{""shipment_id"": 76, ""status"": ""cancelled"", ""source_quality"": ""high""}",2026-03-08T02:12:48+00:00
+483,77,2025-05-23T09:04:23+00:00,created,Hub 09,44.29133,-7.319375,iot_gateway,"{""shipment_id"": 77, ""status"": ""created"", ""source_quality"": ""medium""}",2025-05-23T09:07:23+00:00
+484,77,2025-05-24T00:26:05+00:00,picked_up,Hub 20,52.950489,-6.611956,tms,"{""shipment_id"": 77, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-05-24T00:35:05+00:00
+485,77,2025-05-24T16:05:47+00:00,departed_warehouse,Hub 12,39.13882,8.287634,manual,"{""shipment_id"": 77, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-05-24T16:11:47+00:00
+486,77,2025-05-25T06:00:29+00:00,in_transit,Hub 02,46.7885,-3.597322,iot_gateway,"{""shipment_id"": 77, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2025-05-25T06:09:29+00:00
+487,77,2025-05-25T21:46:11+00:00,arrived_hub,Hub 06,45.2305,8.701039,iot_gateway,"{""shipment_id"": 77, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-05-25T21:52:11+00:00
+488,77,2025-05-26T12:55:53+00:00,out_for_delivery,Porto,36.558291,5.893127,carrier_api,"{""shipment_id"": 77, ""status"": ""out_for_delivery"", ""source_quality"": ""high""}",2025-05-26T12:59:53+00:00
+489,77,2025-05-27T02:55:35+00:00,delivered,Porto,37.903939,0.092985,manual,"{""shipment_id"": 77, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-05-27T02:59:35+00:00
+490,78,2025-12-27T06:14:20+00:00,created,Hub 01,46.199626,-1.684168,manual,"{""shipment_id"": 78, ""status"": ""created"", ""source_quality"": ""medium""}",2025-12-27T06:20:20+00:00
+491,78,2025-12-29T18:40:08+00:00,cancelled,Hub 01,37.677032,4.535683,mobile_app,"{""shipment_id"": 78, ""status"": ""cancelled"", ""source_quality"": ""medium""}",2025-12-29T18:41:08+00:00
+492,79,2026-04-01T02:29:04+00:00,created,Hub 23,45.736843,8.694304,mobile_app,"{""shipment_id"": 79, ""status"": ""created"", ""source_quality"": ""medium""}",2026-04-01T02:32:04+00:00
+493,79,2026-04-03T14:47:52+00:00,cancelled,Hub 15,47.706348,0.589743,iot_gateway,"{""shipment_id"": 79, ""status"": ""cancelled"", ""source_quality"": ""high""}",2026-04-03T14:54:52+00:00
+494,80,2025-01-27T14:35:14+00:00,created,Hub 12,52.593426,2.048277,manual,"{""shipment_id"": 80, ""status"": ""created"", ""source_quality"": ""high""}",2025-01-27T14:44:14+00:00
+495,80,2025-01-27T18:36:44+00:00,picked_up,Hub 09,51.308746,10.551805,mobile_app,"{""shipment_id"": 80, ""status"": ""picked_up"", ""source_quality"": ""low""}",2025-01-27T18:43:44+00:00
+496,80,2025-01-27T21:23:14+00:00,departed_warehouse,Hub 22,45.059078,6.663417,mobile_app,"{""shipment_id"": 80, ""status"": ""departed_warehouse"", ""source_quality"": ""high""}",2025-01-27T21:31:14+00:00
+497,80,2025-01-28T00:49:44+00:00,in_transit,Hub 02,37.742365,-0.858553,manual,"{""shipment_id"": 80, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2025-01-28T00:58:44+00:00
+498,80,2025-01-28T04:17:14+00:00,arrived_hub,Hub 14,46.654839,-5.968238,tms,"{""shipment_id"": 80, ""status"": ""arrived_hub"", ""source_quality"": ""low""}",2025-01-28T04:22:14+00:00
+499,80,2025-01-28T07:11:44+00:00,out_for_delivery,Amsterdam,37.27866,10.765566,mobile_app,"{""shipment_id"": 80, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-01-28T07:16:44+00:00
+500,80,2025-01-28T09:51:14+00:00,delivered,Amsterdam,37.10313,6.439487,manual,"{""shipment_id"": 80, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-01-28T09:54:14+00:00
+501,81,2026-02-06T23:20:20+00:00,created,Hub 09,40.323078,-4.073377,iot_gateway,"{""shipment_id"": 81, ""status"": ""created"", ""source_quality"": ""low""}",2026-02-06T23:24:20+00:00
+502,81,2026-02-07T00:36:56+00:00,picked_up,Hub 03,39.995071,1.189174,manual,"{""shipment_id"": 81, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2026-02-07T00:44:56+00:00
+503,81,2026-02-07T02:41:32+00:00,departed_warehouse,Hub 10,46.436826,11.654671,manual,"{""shipment_id"": 81, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2026-02-07T02:49:32+00:00
+504,81,2026-02-07T04:40:08+00:00,in_transit,Hub 23,50.811938,5.293305,tms,"{""shipment_id"": 81, ""status"": ""in_transit"", ""source_quality"": ""high""}",2026-02-07T04:46:08+00:00
+505,81,2026-02-07T08:30:44+00:00,arrived_hub,Hub 15,44.255211,-7.051851,mobile_app,"{""shipment_id"": 81, ""status"": ""arrived_hub"", ""source_quality"": ""high""}",2026-02-07T08:37:44+00:00
+506,81,2026-02-07T09:02:20+00:00,out_for_delivery,Lisbon,50.697761,-7.193987,manual,"{""shipment_id"": 81, ""status"": ""out_for_delivery"", ""source_quality"": ""low""}",2026-02-07T09:09:20+00:00
+507,81,2026-02-07T11:13:56+00:00,delivered,Lisbon,46.613247,10.818797,mobile_app,"{""shipment_id"": 81, ""status"": ""delivered"", ""source_quality"": ""medium""}",2026-02-07T11:15:56+00:00
+508,82,2025-05-11T13:26:00+00:00,created,Hub 02,37.985781,-8.740571,manual,"{""shipment_id"": 82, ""status"": ""created"", ""source_quality"": ""low""}",2025-05-11T13:29:00+00:00
+509,82,2025-05-12T00:19:18+00:00,picked_up,Hub 21,45.525983,0.316295,iot_gateway,"{""shipment_id"": 82, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-05-12T00:21:18+00:00
+510,82,2025-05-12T09:13:36+00:00,departed_warehouse,Hub 18,47.101909,11.679924,iot_gateway,"{""shipment_id"": 82, ""status"": ""departed_warehouse"", ""source_quality"": ""low""}",2025-05-12T09:21:36+00:00
+511,82,2025-05-12T19:33:54+00:00,in_transit,Hub 01,49.99342,-4.814981,tms,"{""shipment_id"": 82, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2025-05-12T19:40:54+00:00
+512,82,2025-05-13T06:14:12+00:00,arrived_hub,Hub 15,43.204225,-0.50714,tms,"{""shipment_id"": 82, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-05-13T06:22:12+00:00
+513,82,2025-05-13T16:49:30+00:00,out_for_delivery,Amsterdam,43.667738,-5.166966,mobile_app,"{""shipment_id"": 82, ""status"": ""out_for_delivery"", ""source_quality"": ""high""}",2025-05-13T16:57:30+00:00
+514,82,2025-05-14T01:38:48+00:00,delivered,Amsterdam,50.949614,0.820377,tms,"{""shipment_id"": 82, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-05-14T01:40:48+00:00
+515,83,2025-04-15T19:46:48+00:00,created,Hub 22,36.746757,-1.058154,carrier_api,"{""shipment_id"": 83, ""status"": ""created"", ""source_quality"": ""high""}",2025-04-15T19:49:48+00:00
+516,83,2025-04-15T21:26:24+00:00,picked_up,Hub 16,38.691935,-8.484595,iot_gateway,"{""shipment_id"": 83, ""status"": ""picked_up"", ""source_quality"": ""high""}",2025-04-15T21:30:24+00:00
+517,83,2025-04-16T00:33:00+00:00,departed_warehouse,Hub 09,46.153455,12.110189,tms,"{""shipment_id"": 83, ""status"": ""departed_warehouse"", ""source_quality"": ""high""}",2025-04-16T00:35:00+00:00
+518,83,2025-04-16T03:21:36+00:00,in_transit,Hub 21,49.438294,6.232739,iot_gateway,"{""shipment_id"": 83, ""status"": ""in_transit"", ""source_quality"": ""low""}",2025-04-16T03:23:36+00:00
+519,83,2025-04-16T04:05:12+00:00,arrived_hub,Hub 06,44.885945,8.727654,iot_gateway,"{""shipment_id"": 83, ""status"": ""arrived_hub"", ""source_quality"": ""low""}",2025-04-16T04:08:12+00:00
+520,83,2025-04-16T05:24:48+00:00,out_for_delivery,Lisbon,50.172228,-8.133758,tms,"{""shipment_id"": 83, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-04-16T05:28:48+00:00
+521,83,2025-04-16T07:31:24+00:00,delivered,Lisbon,36.978304,7.117262,manual,"{""shipment_id"": 83, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-04-16T07:33:24+00:00
+522,84,2025-01-30T09:36:46+00:00,created,Hub 20,46.890011,-7.011444,carrier_api,"{""shipment_id"": 84, ""status"": ""created"", ""source_quality"": ""medium""}",2025-01-30T09:42:46+00:00
+523,84,2025-01-30T10:53:28+00:00,picked_up,Hub 13,41.603499,-7.458796,carrier_api,"{""shipment_id"": 84, ""status"": ""picked_up"", ""source_quality"": ""low""}",2025-01-30T10:55:28+00:00
+524,84,2025-01-30T11:01:10+00:00,departed_warehouse,Hub 02,39.38039,10.996009,manual,"{""shipment_id"": 84, ""status"": ""departed_warehouse"", ""source_quality"": ""low""}",2025-01-30T11:05:10+00:00
+525,84,2025-01-30T12:45:52+00:00,in_transit,Hub 20,37.451064,-8.869912,iot_gateway,"{""shipment_id"": 84, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2025-01-30T12:49:52+00:00
+526,84,2025-01-30T12:52:34+00:00,arrived_hub,Hub 17,43.238279,-6.774583,iot_gateway,"{""shipment_id"": 84, ""status"": ""arrived_hub"", ""source_quality"": ""low""}",2025-01-30T12:57:34+00:00
+527,84,2025-01-30T14:56:16+00:00,out_for_delivery,Rotterdam,37.374406,-8.545023,mobile_app,"{""shipment_id"": 84, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-01-30T15:00:16+00:00
+528,84,2025-01-30T16:50:58+00:00,delivered,Rotterdam,52.348787,10.900304,carrier_api,"{""shipment_id"": 84, ""status"": ""delivered"", ""source_quality"": ""high""}",2025-01-30T16:58:58+00:00
+529,85,2026-03-14T10:17:09+00:00,created,Hub 03,47.863846,3.671188,iot_gateway,"{""shipment_id"": 85, ""status"": ""created"", ""source_quality"": ""medium""}",2026-03-14T10:23:09+00:00
+530,85,2026-03-15T04:22:33+00:00,cancelled,Hub 16,40.70082,12.234795,mobile_app,"{""shipment_id"": 85, ""status"": ""cancelled"", ""source_quality"": ""high""}",2026-03-15T04:23:33+00:00
+531,86,2025-10-22T16:54:38+00:00,created,Hub 02,46.558306,-5.141256,manual,"{""shipment_id"": 86, ""status"": ""created"", ""source_quality"": ""medium""}",2025-10-22T16:58:38+00:00
+532,86,2025-10-23T00:24:50+00:00,picked_up,Hub 14,39.7685,5.832906,tms,"{""shipment_id"": 86, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-10-23T00:31:50+00:00
+533,86,2025-10-23T08:18:02+00:00,departed_warehouse,Hub 16,47.937759,-0.033738,iot_gateway,"{""shipment_id"": 86, ""status"": ""departed_warehouse"", ""source_quality"": ""low""}",2025-10-23T08:25:02+00:00
+534,86,2025-10-23T15:09:14+00:00,in_transit,Hub 18,49.572422,-5.852732,tms,"{""shipment_id"": 86, ""status"": ""in_transit"", ""source_quality"": ""high""}",2025-10-23T15:15:14+00:00
+535,86,2025-10-23T23:08:26+00:00,arrived_hub,Hub 11,45.892683,-7.522833,tms,"{""shipment_id"": 86, ""status"": ""arrived_hub"", ""source_quality"": ""high""}",2025-10-23T23:14:26+00:00
+536,86,2025-10-24T05:25:38+00:00,out_for_delivery,Braga,47.694303,11.248592,tms,"{""shipment_id"": 86, ""status"": ""out_for_delivery"", ""source_quality"": ""low""}",2025-10-24T05:28:38+00:00
+537,86,2025-10-24T12:23:50+00:00,delivered,Braga,37.03595,9.10648,tms,"{""shipment_id"": 86, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-10-24T12:25:50+00:00
+538,87,2025-11-04T15:51:19+00:00,created,Hub 04,46.099174,-4.156239,iot_gateway,"{""shipment_id"": 87, ""status"": ""created"", ""source_quality"": ""medium""}",2025-11-04T15:59:19+00:00
+539,87,2025-11-04T15:43:01+00:00,picked_up,Hub 16,43.442213,10.080141,manual,"{""shipment_id"": 87, ""status"": ""picked_up"", ""source_quality"": ""high""}",2025-11-04T15:50:01+00:00
+540,87,2025-11-04T18:48:43+00:00,departed_warehouse,Hub 01,48.7294,14.103843,tms,"{""shipment_id"": 87, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-11-04T18:56:43+00:00
+541,87,2025-11-04T19:07:25+00:00,in_transit,Hub 15,41.425916,-7.321719,tms,"{""shipment_id"": 87, ""status"": ""in_transit"", ""source_quality"": ""low""}",2025-11-04T19:08:25+00:00
+542,87,2025-11-04T19:57:07+00:00,arrived_hub,Hub 11,40.189434,14.03792,manual,"{""shipment_id"": 87, ""status"": ""arrived_hub"", ""source_quality"": ""low""}",2025-11-04T20:03:07+00:00
+543,87,2025-11-04T21:40:49+00:00,out_for_delivery,Rotterdam,46.188071,9.385197,mobile_app,"{""shipment_id"": 87, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-11-04T21:41:49+00:00
+544,87,2025-11-04T22:40:31+00:00,delivered,Rotterdam,50.919026,12.823595,carrier_api,"{""shipment_id"": 87, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-11-04T22:43:31+00:00
+545,88,2026-02-27T20:42:13+00:00,created,Hub 07,51.777019,6.83803,tms,"{""shipment_id"": 88, ""status"": ""created"", ""source_quality"": ""medium""}",2026-02-27T20:49:13+00:00
+546,88,2026-02-28T00:10:25+00:00,picked_up,Hub 10,46.538754,7.389243,carrier_api,"{""shipment_id"": 88, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2026-02-28T00:13:25+00:00
+547,88,2026-02-28T02:32:37+00:00,departed_warehouse,Hub 01,51.34663,6.081101,iot_gateway,"{""shipment_id"": 88, ""status"": ""departed_warehouse"", ""source_quality"": ""low""}",2026-02-28T02:40:37+00:00
+548,88,2026-02-28T04:17:49+00:00,in_transit,Hub 15,39.916317,11.517062,tms,"{""shipment_id"": 88, ""status"": ""in_transit"", ""source_quality"": ""high""}",2026-02-28T04:20:49+00:00
+549,88,2026-02-28T08:22:01+00:00,arrived_hub,Hub 08,47.005166,-6.164747,manual,"{""shipment_id"": 88, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2026-02-28T08:25:01+00:00
+550,88,2026-02-28T10:47:13+00:00,out_for_delivery,Toulouse,49.788971,-7.216822,tms,"{""shipment_id"": 88, ""status"": ""out_for_delivery"", ""source_quality"": ""high""}",2026-02-28T10:52:13+00:00
+551,88,2026-02-28T12:25:25+00:00,delivered,Toulouse,37.067416,1.011375,carrier_api,"{""shipment_id"": 88, ""status"": ""delivered"", ""source_quality"": ""high""}",2026-02-28T12:29:25+00:00
+552,89,2026-01-22T02:30:17+00:00,created,Hub 04,50.360449,7.022045,carrier_api,"{""shipment_id"": 89, ""status"": ""created"", ""source_quality"": ""low""}",2026-01-22T02:38:17+00:00
+553,89,2026-01-22T21:39:41+00:00,cancelled,Hub 12,42.880108,-0.35801,tms,"{""shipment_id"": 89, ""status"": ""cancelled"", ""source_quality"": ""medium""}",2026-01-22T21:40:41+00:00
+554,90,2026-03-07T01:13:54+00:00,created,Hub 05,44.377209,14.105285,iot_gateway,"{""shipment_id"": 90, ""status"": ""created"", ""source_quality"": ""medium""}",2026-03-07T01:18:54+00:00
+555,90,2026-03-07T05:46:00+00:00,picked_up,Hub 09,46.784175,7.649129,manual,"{""shipment_id"": 90, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2026-03-07T05:49:00+00:00
+556,90,2026-03-07T07:59:06+00:00,departed_warehouse,Hub 11,41.779252,-0.278382,manual,"{""shipment_id"": 90, ""status"": ""departed_warehouse"", ""source_quality"": ""low""}",2026-03-07T08:06:06+00:00
+557,90,2026-03-07T10:08:12+00:00,in_transit,Hub 16,43.514644,0.628554,manual,"{""shipment_id"": 90, ""status"": ""in_transit"", ""source_quality"": ""high""}",2026-03-07T10:14:12+00:00
+558,90,2026-03-07T12:44:18+00:00,arrived_hub,Hub 22,52.380707,6.172592,iot_gateway,"{""shipment_id"": 90, ""status"": ""arrived_hub"", ""source_quality"": ""high""}",2026-03-07T12:52:18+00:00
+559,90,2026-03-07T17:11:24+00:00,out_for_delivery,Hamburg,51.078593,11.278168,carrier_api,"{""shipment_id"": 90, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2026-03-07T17:15:24+00:00
+560,90,2026-03-07T18:36:30+00:00,delivered,Hamburg,44.606957,10.24937,manual,"{""shipment_id"": 90, ""status"": ""delivered"", ""source_quality"": ""medium""}",2026-03-07T18:44:30+00:00
+561,91,2025-12-18T13:12:59+00:00,created,Hub 06,36.021031,-6.823335,tms,"{""shipment_id"": 91, ""status"": ""created"", ""source_quality"": ""medium""}",2025-12-18T13:21:59+00:00
+562,91,2025-12-18T21:34:17+00:00,picked_up,Hub 20,52.948913,-5.770451,manual,"{""shipment_id"": 91, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-12-18T21:42:17+00:00
+563,91,2025-12-19T09:59:35+00:00,departed_warehouse,Hub 15,42.275558,9.544425,manual,"{""shipment_id"": 91, ""status"": ""departed_warehouse"", ""source_quality"": ""low""}",2025-12-19T10:08:35+00:00
+564,91,2025-12-19T18:31:53+00:00,in_transit,Hub 05,40.283901,-1.788254,carrier_api,"{""shipment_id"": 91, ""status"": ""in_transit"", ""source_quality"": ""high""}",2025-12-19T18:37:53+00:00
+565,91,2025-12-20T08:22:11+00:00,arrived_hub,Hub 21,48.487456,10.843305,mobile_app,"{""shipment_id"": 91, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-12-20T08:30:11+00:00
+566,91,2025-12-20T15:42:29+00:00,out_for_delivery,Amsterdam,40.364145,4.892433,iot_gateway,"{""shipment_id"": 91, ""status"": ""out_for_delivery"", ""source_quality"": ""low""}",2025-12-20T15:46:29+00:00
+567,91,2025-12-21T01:39:47+00:00,delivered,Amsterdam,39.89574,3.931473,carrier_api,"{""shipment_id"": 91, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-12-21T01:46:47+00:00
+568,92,2025-05-03T19:09:40+00:00,created,Hub 06,36.11158,-2.38107,mobile_app,"{""shipment_id"": 92, ""status"": ""created"", ""source_quality"": ""high""}",2025-05-03T19:13:40+00:00
+569,92,2025-05-03T20:59:46+00:00,picked_up,Hub 06,45.820522,7.895618,tms,"{""shipment_id"": 92, ""status"": ""picked_up"", ""source_quality"": ""low""}",2025-05-03T21:03:46+00:00
+570,92,2025-05-04T00:11:52+00:00,departed_warehouse,Hub 19,45.223597,10.736864,carrier_api,"{""shipment_id"": 92, ""status"": ""departed_warehouse"", ""source_quality"": ""high""}",2025-05-04T00:19:52+00:00
+571,92,2025-05-04T02:34:58+00:00,in_transit,Hub 23,46.444369,-7.335476,tms,"{""shipment_id"": 92, ""status"": ""in_transit"", ""source_quality"": ""high""}",2025-05-04T02:39:58+00:00
+572,92,2025-05-04T06:01:04+00:00,arrived_hub,Hub 04,47.393135,-8.737201,iot_gateway,"{""shipment_id"": 92, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-05-04T06:06:04+00:00
+573,92,2025-05-04T08:56:10+00:00,out_for_delivery,Hamburg,44.758163,-5.355184,manual,"{""shipment_id"": 92, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-05-04T08:58:10+00:00
+574,92,2025-05-04T10:19:16+00:00,delivered,Hamburg,37.660864,10.865715,manual,"{""shipment_id"": 92, ""status"": ""delivered"", ""source_quality"": ""low""}",2025-05-04T10:23:16+00:00
+575,93,2025-04-25T16:35:33+00:00,created,Hub 03,51.98958,2.219607,manual,"{""shipment_id"": 93, ""status"": ""created"", ""source_quality"": ""high""}",2025-04-25T16:42:33+00:00
+576,93,2025-04-26T06:22:15+00:00,picked_up,Hub 07,41.374447,-4.04891,manual,"{""shipment_id"": 93, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-04-26T06:28:15+00:00
+577,93,2025-04-26T21:22:57+00:00,departed_warehouse,Hub 22,51.346834,-5.476194,mobile_app,"{""shipment_id"": 93, ""status"": ""departed_warehouse"", ""source_quality"": ""high""}",2025-04-26T21:28:57+00:00
+578,93,2025-04-27T13:28:39+00:00,in_transit,Hub 20,37.955168,-5.316793,iot_gateway,"{""shipment_id"": 93, ""status"": ""in_transit"", ""source_quality"": ""low""}",2025-04-27T13:37:39+00:00
+579,93,2025-04-28T02:48:21+00:00,arrived_hub,Hub 04,38.463236,1.775596,iot_gateway,"{""shipment_id"": 93, ""status"": ""arrived_hub"", ""source_quality"": ""high""}",2025-04-28T02:49:21+00:00
+580,93,2025-04-28T19:06:03+00:00,out_for_delivery,Porto,37.676917,10.033684,mobile_app,"{""shipment_id"": 93, ""status"": ""out_for_delivery"", ""source_quality"": ""high""}",2025-04-28T19:12:03+00:00
+581,93,2025-04-29T10:46:45+00:00,delivered,Porto,41.93609,3.568978,iot_gateway,"{""shipment_id"": 93, ""status"": ""delivered"", ""source_quality"": ""high""}",2025-04-29T10:47:45+00:00
+582,94,2025-01-12T00:07:19+00:00,created,Hub 07,49.367388,11.747681,mobile_app,"{""shipment_id"": 94, ""status"": ""created"", ""source_quality"": ""medium""}",2025-01-12T00:12:19+00:00
+583,94,2025-01-12T01:36:31+00:00,picked_up,Hub 10,38.386807,14.611301,manual,"{""shipment_id"": 94, ""status"": ""picked_up"", ""source_quality"": ""low""}",2025-01-12T01:43:31+00:00
+584,94,2025-01-12T05:15:43+00:00,departed_warehouse,Hub 01,42.632045,9.969478,iot_gateway,"{""shipment_id"": 94, ""status"": ""departed_warehouse"", ""source_quality"": ""high""}",2025-01-12T05:21:43+00:00
+585,94,2025-01-12T07:03:55+00:00,in_transit,Hub 10,36.075679,6.944435,iot_gateway,"{""shipment_id"": 94, ""status"": ""in_transit"", ""source_quality"": ""low""}",2025-01-12T07:09:55+00:00
+586,94,2025-01-12T09:22:07+00:00,arrived_hub,Hub 10,42.857254,11.802725,tms,"{""shipment_id"": 94, ""status"": ""arrived_hub"", ""source_quality"": ""high""}",2025-01-12T09:29:07+00:00
+587,94,2025-01-12T12:03:19+00:00,out_for_delivery,Porto,44.012651,-4.632607,mobile_app,"{""shipment_id"": 94, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-01-12T12:12:19+00:00
+588,94,2025-01-12T13:01:31+00:00,delivered,Porto,52.026613,13.575644,mobile_app,"{""shipment_id"": 94, ""status"": ""delivered"", ""source_quality"": ""medium""}",2025-01-12T13:05:31+00:00
+589,95,2025-10-07T11:03:58+00:00,created,Hub 08,40.964065,-1.456018,mobile_app,"{""shipment_id"": 95, ""status"": ""created"", ""source_quality"": ""medium""}",2025-10-07T11:12:58+00:00
+590,95,2025-10-07T12:59:58+00:00,picked_up,Hub 05,48.762307,-8.690819,tms,"{""shipment_id"": 95, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-10-07T13:08:58+00:00
+591,95,2025-10-07T18:21:58+00:00,departed_warehouse,Hub 05,45.869876,2.496923,iot_gateway,"{""shipment_id"": 95, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-10-07T18:23:58+00:00
+592,95,2025-10-07T19:53:58+00:00,in_transit,Hub 01,45.948677,12.033253,manual,"{""shipment_id"": 95, ""status"": ""in_transit"", ""source_quality"": ""low""}",2025-10-07T20:02:58+00:00
+593,95,2025-10-07T21:56:58+00:00,arrived_hub,Hub 17,44.272392,-7.103889,carrier_api,"{""shipment_id"": 95, ""status"": ""arrived_hub"", ""source_quality"": ""low""}",2025-10-07T21:59:58+00:00
+594,95,2025-10-08T00:21:58+00:00,out_for_delivery,Frankfurt,49.912213,-6.974243,manual,"{""shipment_id"": 95, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-10-08T00:23:58+00:00
+595,95,2025-10-08T02:26:58+00:00,delivered,Frankfurt,37.253351,-8.262505,iot_gateway,"{""shipment_id"": 95, ""status"": ""delivered"", ""source_quality"": ""high""}",2025-10-08T02:27:58+00:00
+596,96,2025-03-27T11:42:51+00:00,created,Hub 09,37.658628,-4.105353,tms,"{""shipment_id"": 96, ""status"": ""created"", ""source_quality"": ""medium""}",2025-03-27T11:47:51+00:00
+597,96,2025-03-27T13:22:51+00:00,picked_up,Hub 23,42.288632,8.967612,tms,"{""shipment_id"": 96, ""status"": ""picked_up"", ""source_quality"": ""high""}",2025-03-27T13:31:51+00:00
+598,96,2025-03-27T17:15:51+00:00,departed_warehouse,Hub 23,39.187319,-7.841897,mobile_app,"{""shipment_id"": 96, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-03-27T17:18:51+00:00
+599,96,2025-03-27T17:39:51+00:00,in_transit,Hub 05,45.689008,5.719073,manual,"{""shipment_id"": 96, ""status"": ""in_transit"", ""source_quality"": ""high""}",2025-03-27T17:48:51+00:00
+600,96,2025-03-27T21:41:51+00:00,arrived_hub,Hub 14,49.63891,6.559244,carrier_api,"{""shipment_id"": 96, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-03-27T21:46:51+00:00
+601,96,2025-03-27T23:10:51+00:00,out_for_delivery,Frankfurt,38.913276,4.136917,tms,"{""shipment_id"": 96, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-03-27T23:19:51+00:00
+602,96,2025-03-28T01:32:51+00:00,delivered,Frankfurt,38.036762,-2.238662,tms,"{""shipment_id"": 96, ""status"": ""delivered"", ""source_quality"": ""low""}",2025-03-28T01:40:51+00:00
+603,97,2025-06-10T12:48:01+00:00,created,Hub 22,41.348752,4.572594,iot_gateway,"{""shipment_id"": 97, ""status"": ""created"", ""source_quality"": ""high""}",2025-06-10T12:49:01+00:00
+604,97,2025-06-10T15:26:31+00:00,picked_up,Hub 17,38.373273,9.655905,mobile_app,"{""shipment_id"": 97, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2025-06-10T15:33:31+00:00
+605,97,2025-06-10T19:11:01+00:00,departed_warehouse,Hub 23,44.324098,-1.622764,carrier_api,"{""shipment_id"": 97, ""status"": ""departed_warehouse"", ""source_quality"": ""medium""}",2025-06-10T19:15:01+00:00
+606,97,2025-06-10T23:18:31+00:00,in_transit,Hub 07,39.525544,-2.214604,manual,"{""shipment_id"": 97, ""status"": ""in_transit"", ""source_quality"": ""medium""}",2025-06-10T23:26:31+00:00
+607,97,2025-06-11T01:48:01+00:00,arrived_hub,Hub 17,42.924903,5.012599,carrier_api,"{""shipment_id"": 97, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-06-11T01:52:01+00:00
+608,97,2025-06-11T05:07:31+00:00,out_for_delivery,Amsterdam,47.501733,8.894716,mobile_app,"{""shipment_id"": 97, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-06-11T05:10:31+00:00
+609,97,2025-06-11T09:01:01+00:00,delivered,Amsterdam,42.993706,10.925987,iot_gateway,"{""shipment_id"": 97, ""status"": ""delivered"", ""source_quality"": ""high""}",2025-06-11T09:02:01+00:00
+610,98,2025-12-04T05:50:20+00:00,created,Hub 11,39.610417,11.830561,carrier_api,"{""shipment_id"": 98, ""status"": ""created"", ""source_quality"": ""high""}",2025-12-04T05:53:20+00:00
+611,98,2025-12-04T08:42:14+00:00,picked_up,Hub 19,52.446465,-6.207499,manual,"{""shipment_id"": 98, ""status"": ""picked_up"", ""source_quality"": ""high""}",2025-12-04T08:48:14+00:00
+612,98,2025-12-04T10:41:08+00:00,departed_warehouse,Hub 17,51.414536,6.448438,carrier_api,"{""shipment_id"": 98, ""status"": ""departed_warehouse"", ""source_quality"": ""high""}",2025-12-04T10:49:08+00:00
+613,98,2025-12-04T16:00:02+00:00,in_transit,Hub 03,46.595609,-8.941979,iot_gateway,"{""shipment_id"": 98, ""status"": ""in_transit"", ""source_quality"": ""high""}",2025-12-04T16:02:02+00:00
+614,98,2025-12-04T18:06:56+00:00,arrived_hub,Hub 16,37.715268,14.793235,carrier_api,"{""shipment_id"": 98, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2025-12-04T18:08:56+00:00
+615,98,2025-12-04T21:14:50+00:00,out_for_delivery,Frankfurt,39.470893,0.000751,tms,"{""shipment_id"": 98, ""status"": ""out_for_delivery"", ""source_quality"": ""medium""}",2025-12-04T21:20:50+00:00
+616,98,2025-12-04T21:14:44+00:00,delivered,Frankfurt,40.20976,-3.244106,manual,"{""shipment_id"": 98, ""status"": ""delivered"", ""source_quality"": ""low""}",2025-12-04T21:22:44+00:00
+617,99,2026-04-23T22:25:37+00:00,created,Hub 05,42.31238,-0.035667,manual,"{""shipment_id"": 99, ""status"": ""created"", ""source_quality"": ""medium""}",2026-04-23T22:33:37+00:00
+618,99,2026-04-24T01:38:49+00:00,picked_up,Hub 06,36.148658,8.649062,carrier_api,"{""shipment_id"": 99, ""status"": ""picked_up"", ""source_quality"": ""medium""}",2026-04-24T01:40:49+00:00
+619,99,2026-04-24T04:12:01+00:00,departed_warehouse,Hub 24,40.345698,3.847631,carrier_api,"{""shipment_id"": 99, ""status"": ""departed_warehouse"", ""source_quality"": ""high""}",2026-04-24T04:20:01+00:00
+620,99,2026-04-24T06:33:13+00:00,in_transit,Hub 19,43.050679,-6.309359,mobile_app,"{""shipment_id"": 99, ""status"": ""in_transit"", ""source_quality"": ""low""}",2026-04-24T06:39:13+00:00
+621,99,2026-04-24T09:08:25+00:00,arrived_hub,Hub 15,40.33499,13.082533,manual,"{""shipment_id"": 99, ""status"": ""arrived_hub"", ""source_quality"": ""medium""}",2026-04-24T09:11:25+00:00
+622,99,2026-04-24T11:15:37+00:00,out_for_delivery,Toulouse,36.436059,1.225178,mobile_app,"{""shipment_id"": 99, ""status"": ""out_for_delivery"", ""source_quality"": ""high""}",2026-04-24T11:19:37+00:00
+623,99,2026-04-24T15:47:49+00:00,delivered,Toulouse,41.988328,-8.566235,manual,"{""shipment_id"": 99, ""status"": ""delivered"", ""source_quality"": ""low""}",2026-04-24T15:50:49+00:00
+624,100,2025-06-05T11:22:25+00:00,created,Hub 05,36.998043,-4.311342,tms,"{""shipment_id"": 100, ""status"": ""created"", ""source_quality"": ""high""}",2025-06-05T11:24:25+00:00
+625,100,2025-06-05T23:55:37+00:00,cancelled,Hub 08,47.194178,0.063781,tms,"{""shipment_id"": 100, ""status"": ""cancelled"", ""source_quality"": ""low""}",2025-06-05T23:56:37+00:00

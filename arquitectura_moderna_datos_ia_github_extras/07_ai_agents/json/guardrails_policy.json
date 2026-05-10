@@ -1,0 +1,19 @@
+{
+  "agent_name": "logistics_operations_agent",
+  "policies": {
+    "data_access": {
+      "allowed_datasets": ["shipments_enriched", "delivery_kpis", "incident_summary"],
+      "forbidden_datasets": ["raw_customer_contracts", "internal_costs"]
+    },
+    "actions": {
+      "allowed_without_approval": ["get_shipment_status", "search_logistics_policy"],
+      "requires_human_approval": ["create_escalation_case", "send_customer_notification"],
+      "forbidden": ["cancel_shipment", "change_contract_terms"]
+    },
+    "response": {
+      "must_cite_sources": true,
+      "must_disclose_uncertainty": true,
+      "do_not_invent_policy": true
+    }
+  }
+}

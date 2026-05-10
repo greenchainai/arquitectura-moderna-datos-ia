@@ -1,0 +1,1 @@
+{"requires_human_approval":["create_escalation_case","send_customer_notification"],"forbidden_actions":["cancel_shipment","change_contract_terms"],"must_cite_sources":true}

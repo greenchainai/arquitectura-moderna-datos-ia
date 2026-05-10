@@ -1,0 +1,14 @@
+{
+  "document_id": "DOC-000123",
+  "source_system": "document_repository",
+  "document_type": "incident_policy",
+  "title": "Procedimiento ante retraso de envío express",
+  "owner": "logistics_operations",
+  "domain": "incidents",
+  "version": "2.1",
+  "valid_from": "2026-01-01",
+  "valid_to": null,
+  "language": "es",
+  "permissions": ["operations", "customer_service"],
+  "storage_path": "/policies/incidents/express_delay_policy_v2_1.pdf"
+}

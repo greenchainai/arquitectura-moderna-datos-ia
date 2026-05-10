@@ -1,0 +1,6 @@
+embedding:
+  provider: enterprise_embedding_service
+  model: text-embedding-enterprise
+  dimensions: 1536
+  normalize: true
+  metadata_fields: [document_id, owner, domain, version, valid_from, valid_to, permissions, language]

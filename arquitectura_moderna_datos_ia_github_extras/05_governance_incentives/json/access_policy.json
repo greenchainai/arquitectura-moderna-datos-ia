@@ -1,0 +1,9 @@
+{
+  "policy_id": "shipments_enriched_access_policy",
+  "dataset": "shipments_enriched",
+  "rules": [
+    {"role": "operations_analyst", "permission": "read", "columns": ["*"]},
+    {"role": "customer_service", "permission": "read", "columns": ["shipment_id", "customer_id", "shipment_status", "planned_delivery_date", "actual_delivery_date", "is_delayed"]},
+    {"role": "external_partner", "permission": "read", "columns": ["shipment_id", "shipment_status", "planned_delivery_date"], "condition": "partner_id = current_partner()"}
+  ]
+}

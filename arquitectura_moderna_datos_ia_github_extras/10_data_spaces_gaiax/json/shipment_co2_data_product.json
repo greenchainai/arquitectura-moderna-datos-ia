@@ -1,0 +1,20 @@
+{
+  "data_product_id": "shipment_co2_data_product",
+  "name": "Shipment CO2 Data Product",
+  "description": "CO2 emissions by shipment, route and carrier for governed external sharing.",
+  "domain": "sustainability",
+  "owner": "sustainability_data_owner",
+  "version": "1.0.0",
+  "schema": {
+    "shipment_id": "string",
+    "route_id": "string",
+    "carrier_id": "string",
+    "co2_kg": "decimal",
+    "calculation_method": "string",
+    "calculated_at": "timestamp"
+  },
+  "access": {
+    "requires_contract": true,
+    "allowed_purposes": ["sustainability_reporting", "regulatory_reporting", "partner_optimization"]
+  }
+}

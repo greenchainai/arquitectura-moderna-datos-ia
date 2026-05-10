@@ -1,0 +1,25 @@
+{
+  "contract_id": "shipments_v1",
+  "dataset_name": "shipments_enriched",
+  "domain": "logistics_operations",
+  "owner": "operations_data_owner",
+  "version": "1.0.0",
+  "refresh_frequency": "hourly",
+  "schema": {
+    "shipment_id": "string",
+    "order_id": "string",
+    "customer_id": "string",
+    "carrier_id": "string",
+    "route_id": "string",
+    "shipment_status": "string",
+    "planned_delivery_date": "date",
+    "actual_delivery_date": "date",
+    "is_delayed": "boolean",
+    "delay_days": "integer"
+  },
+  "quality_rules": [
+    {"field": "shipment_id", "rule": "not_null", "severity": "critical"},
+    {"field": "shipment_id", "rule": "unique", "severity": "critical"},
+    {"field": "shipment_status", "rule": "accepted_values", "values": ["CREATED", "IN_TRANSIT", "DELIVERED", "DELAYED", "CANCELLED"], "severity": "high"}
+  ]
+}

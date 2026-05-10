@@ -1,0 +1,13 @@
+route_id,origin_warehouse_id,destination_country,destination_city,distance_km,route_type,planned_transit_hours,created_at
+1,1,Germany,Hamburg,499.38,domestic,15.81,2022-11-21T00:00:00+00:00
+2,4,France,Toulouse,458.64,domestic,16.72,2023-01-06T00:00:00+00:00
+3,2,Netherlands,Amsterdam,3807.13,long_haul,60.13,2022-12-24T00:00:00+00:00
+4,4,Netherlands,Rotterdam,172.72,domestic,7.57,2023-05-18T00:00:00+00:00
+5,3,Netherlands,Amsterdam,1136.45,long_haul,20.95,2023-08-24T00:00:00+00:00
+6,4,Portugal,Lisbon,382.93,domestic,12.16,2023-07-01T00:00:00+00:00
+7,4,Germany,Frankfurt,825.13,international,14.7,2023-07-24T00:00:00+00:00
+8,4,Portugal,Porto,3989.03,long_haul,90.47,2023-02-12T00:00:00+00:00
+9,2,Spain,Madrid,1855.68,international,44.6,2023-07-13T00:00:00+00:00
+10,3,Portugal,Porto,725.14,domestic,13.32,2023-08-11T00:00:00+00:00
+11,2,Germany,Frankfurt,663.62,international,18.19,2023-07-25T00:00:00+00:00
+12,3,Portugal,Braga,2145.09,long_haul,42.72,2023-11-02T00:00:00+00:00

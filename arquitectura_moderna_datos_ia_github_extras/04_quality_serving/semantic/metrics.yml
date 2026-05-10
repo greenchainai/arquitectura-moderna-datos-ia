@@ -1,0 +1,10 @@
+metrics:
+  - name: OnTimeDelivery
+    description: "Número de envíos entregados dentro del SLA definido."
+    owner: operations
+  - name: DelayRate
+    description: "Porcentaje de envíos entregados fuera del SLA."
+    owner: operations
+  - name: CO2PerShipment
+    description: "Emisiones medias de CO2 por envío."
+    owner: sustainability

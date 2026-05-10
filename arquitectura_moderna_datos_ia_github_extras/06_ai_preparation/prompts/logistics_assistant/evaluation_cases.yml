@@ -1,0 +1,8 @@
+cases:
+  - case_id: express_delay_policy
+    input: "¿Qué debo hacer con un envío express con 30 horas de retraso?"
+    expected_behavior:
+      - use_retrieved_policy
+      - cite_source
+      - recommend_escalation
+      - disclose_uncertainty_if_context_missing
