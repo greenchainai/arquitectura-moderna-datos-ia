@@ -86,6 +86,12 @@ Puedes utilizar este repositorio de tres formas:
 
 Los ejemplos están pensados para facilitar la comprensión de los patrones explicados en el libro. Antes de llevar cualquier elemento a producción, deben revisarse y adaptarse a los requisitos reales de seguridad, rendimiento, gobierno, escalabilidad y cumplimiento de cada organización.
 
+# Arquitectura Moderna de Datos e IA
+
+Repositorio complementario del libro **Arquitectura Moderna de Datos e IA**.
+
+📘 Disponible en Amazon: https://amzn.eu/d/0igDzMPz
+
 ## Requisitos orientativos
 
 Algunos ejemplos pueden requerir herramientas como:
